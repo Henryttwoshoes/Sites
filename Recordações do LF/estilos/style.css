@@ -46,11 +46,14 @@ header p {
 
 main img {
     max-width: 950px;
-    width: 100%;
 }
 
 main {
     width: 100%;
+}
+
+main iframe {
+    padding: 20px 0 20px 0;
 }
 
 /*main p {
