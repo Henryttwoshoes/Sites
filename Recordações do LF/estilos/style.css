@@ -19,7 +19,7 @@ body {
 }
 
 img {
-    padding: 20px;
+    padding: 5px;
 }
 
 header{
@@ -74,7 +74,7 @@ section h3 {
 
 section p {
     font-size: 1.5em;
-    padding: 20px;
+    padding: 10px;
     margin: auto;
 }
 
