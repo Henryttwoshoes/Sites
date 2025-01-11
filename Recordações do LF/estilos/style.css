@@ -54,6 +54,7 @@ main {
 
 main p {
     margin: 0 500px 0 500px;
+    max-width: 950px;
 }
 
 main iframe {
