@@ -52,6 +52,10 @@ main {
     width: 100%;
 }
 
+main p {
+    margin: 0 500px 0 500px;
+}
+
 main iframe {
     padding: 20px 0 20px 0;
 }
@@ -70,12 +74,22 @@ section h3 {
 
 section p {
     font-size: 1.5em;
-    padding: 5px 0 20px 0;
-    margin: auto
+    padding: 20px;
+    margin: auto;
 }
 
 section#cap1 {
     background-color: hsl(113, 58%, 40%);
+    width: 100%;
+}
+
+section#cap2 {
+    background-color: hsl(197, 58%, 40%);
+    width: 100%;
+}
+
+section#cap3 {
+    background-color: hsl(0, 58%, 40%);
     width: 100%;
 }
 
