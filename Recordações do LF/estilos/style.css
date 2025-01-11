@@ -18,6 +18,10 @@ body {
     text-align: center;
 }
 
+img {
+    padding: 20px;
+}
+
 header{
     background-color: var(--cormain);
     min-width: 150px;
@@ -42,6 +46,11 @@ header p {
 
 main img {
     max-width: 950px;
+    width: 100%;
+}
+
+main {
+    width: 100%;
 }
 
 /*main p {
@@ -64,8 +73,7 @@ section p {
 
 section#cap1 {
     background-color: hsl(113, 58%, 40%);
-    padding: 0 10px 0 10px;
- 
+    width: 100%;
 }
 
 
