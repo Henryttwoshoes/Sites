@@ -20,6 +20,7 @@ body {
 
 img {
     padding: 5px;
+    object-fit: cover;
 }
 
 header{
