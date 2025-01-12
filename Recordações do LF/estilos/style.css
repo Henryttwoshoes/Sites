@@ -25,9 +25,8 @@ img {
 
 header{
     background-color: var(--cormain);
-    min-width: 150px;
-    height: 70vh;
-    padding-bottom: 200px;
+    height: 50vw;
+    padding-bottom: 0px;
 }
 
 header img {
@@ -35,14 +34,14 @@ header img {
 }
 
 header h1 {
-    font-size: 3em;
-    margin: 0 300px 0 300px;
+    font-size: 3vw;
+    margin: auto;
     padding: 10px;
 }
 
 header p {
     padding-top: 30px;
-    font-size: 2.7em;
+    font-size: 2.7vw;
     margin: 0 120px 0 120px
 }
 
