@@ -107,6 +107,12 @@ section#Dead {
     background-color: #436573;
 }
 
+main#s3 {
+    background: #436573 url(../imagens/unknown\ 2.png) no-repeat fixed;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 main#s4 {
     background-color: #436573;
     background: #436573 url(../imagens/Backgrounds/Mortos\ na\ Água.webp) no-repeat fixed;
