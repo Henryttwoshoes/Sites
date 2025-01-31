@@ -24,6 +24,7 @@ body {
     color: white;
     font-family: Helvetica, sans-serif;
     justify-content: center;
+    align-items: center;
 }
 
 header{
@@ -43,4 +44,14 @@ header h1 {
 header img {
     width: 300px;
     height: 300px;
+}
+
+#container {
+    position: relative;
+}
+
+img.top {
+    position: absolute;
+    left: 0;
+    top: 0;
 }
