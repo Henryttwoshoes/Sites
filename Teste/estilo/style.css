@@ -67,18 +67,18 @@ aside.imagem {
     margin: auto;
 }
 
-.quemsou {
+.seção {
     width: 99vw;
     background-color: rgb(255, 255, 255);
     margin: auto;
 }
 
-.quemsou h1 {
+section.seção h1 {
     font-size: 5em;
     margin-left: 30px;
     text-align: left;
 }
-.quemsou p {
+.seção p {
     font-family: 'Source Code Pro';
     font-size: 1.7em;
     margin-left: 30px;
@@ -86,13 +86,21 @@ aside.imagem {
     text-indent: 50px;
     text-align: justify;
 }
-.quemsou img { 
-    margin: 0 30vw 0 35vw;
+.seção img { 
+    margin: 0 10vw 0 35vw;
+    padding-left: 2vw;
     width: 25vw;
 
 }
-.quemsou p, h1 {
+.seção p, h1, h2 {
     color: black;
+}
+
+.seção h2 {
+    font-size: 4em;
+    margin-left: 30px;
+    text-align: left;
+    padding-top: 20px;
 }
 
 p#endquemsou {
@@ -105,7 +113,7 @@ p.legenda  {
     font-style: italic;
 }
 
-section.projetos {
+section#projetos {
     background-color: #e0e0e0;
     width: 99vw;
     padding-bottom: 50px;
