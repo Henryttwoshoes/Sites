@@ -76,6 +76,7 @@ div img:hover {
     font-family: 'Source Code Pro';
     font-size: 1.7em;
     margin-left: 30px;
-    margin-right: 300px;
-    text-indent: 30px;
+    margin-right: 100px;
+    text-indent: 50px;
+    text-align: justify;
 }
