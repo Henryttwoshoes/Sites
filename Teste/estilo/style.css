@@ -38,6 +38,7 @@ header h1 {
     text-align: center;
     margin: auto;
     font-size: 6.1em;
+    color: white;
 }
 
 header img {
@@ -64,7 +65,7 @@ div img:hover {
 .quemsou {
     height: 98vh;
     width: 99vw;
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(255, 255, 255);
     margin: auto;
 }
 
@@ -85,6 +86,9 @@ div img:hover {
     margin: 0 30vw 0 35vw;
     width: 500px;
 
+}
+.quemsou p, h1 {
+    color: black;
 }
 
 p#lebron  {
