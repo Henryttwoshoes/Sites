@@ -29,7 +29,7 @@ body {
 header{
     background-color: black;
     height: 100vh;
-    width: 100vw;
+    width: 99vw;
     text-align: center;
 }
 
@@ -37,7 +37,7 @@ header h1 {
     padding-top: 300px;
     text-align: center;
     margin: auto;
-    font-size: 5em;
+    font-size: 6.1em;
 }
 
 header img {
@@ -59,4 +59,16 @@ div img {
 
 div img:hover {
     opacity: 0;
+}
+
+.quemsou {
+    height: 98vh;
+    width: 99vw;
+    background-color: rgb(10, 10, 10)
+}
+
+.quemsou h1 {
+    font-size: 5em;
+    margin-left: 50px;
+    text-align: left;
 }
