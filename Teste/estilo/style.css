@@ -62,8 +62,12 @@ div img:hover {
     opacity: 0;
 }
 
+
+aside.imagem {
+    margin: auto;
+}
+
 .quemsou {
-    height: 100vh;
     width: 99vw;
     background-color: rgb(255, 255, 255);
     margin: auto;
@@ -84,15 +88,25 @@ div img:hover {
 }
 .quemsou img { 
     margin: 0 30vw 0 35vw;
-    width: 500px;
+    width: 25vw;
 
 }
 .quemsou p, h1 {
     color: black;
 }
 
-p#lebron  {
+p#endquemsou {
+    padding-bottom: 50px;
+}
+
+p.legenda  {
     font-size: 1em;
     text-align: center;
     font-style: italic;
+}
+
+section.projetos {
+    background-color: #e0e0e0;
+    width: 99vw;
+    padding-bottom: 50px;
 }
