@@ -68,9 +68,10 @@ aside.imagem {
 }
 
 .seção {
-    width: 99vw;
+    width: 99.1vw;
     background-color: rgb(255, 255, 255);
     margin: auto;
+    
 }
 
 section.seção h1 {
@@ -90,31 +91,65 @@ section.seção h1 {
     margin: 0 10vw 0 35vw;
     padding-left: 2vw;
     width: 25vw;
-
+    object-fit: cover;
 }
-.seção p, h1, h2 {
+
+img#perfil{
+    width: 10vw;
+    padding-left: 10vw;
+}
+
+img#canalyt {
+    width: 50vw;
+    padding-left: px;
+    margin: 0 10vw 0 0vw;
+}
+
+
+.seção p, h1, h2, h3, h4 {
     color: black;
 }
 
 .seção h2 {
-    font-size: 4em;
+    font-size: 3.5em;
     margin-left: 30px;
     text-align: left;
     padding-top: 20px;
 }
 
+.seção h3 {
+    font-size: 3em;
+    margin-left: 30px;
+    text-align: left;
+    padding-top: 20px;
+}
+
+
 p#endquemsou {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 p.legenda  {
     font-size: 1em;
     text-align: center;
     font-style: italic;
+    margin: 0 500px 0 500px;
 }
 
 section#projetos {
     background-color: #e0e0e0;
-    width: 99vw;
+    width: 99.1vw;
     padding-bottom: 50px;
+}
+
+a {
+    color: blue;
+}
+
+h3#link {
+    text-align: center;
+}
+
+iframe#youtube {
+    margin: 0 10vw 0 16vw;
 }
