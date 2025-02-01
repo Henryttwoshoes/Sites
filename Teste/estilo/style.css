@@ -75,4 +75,7 @@ div img:hover {
 .quemsou p {
     font-family: 'Source Code Pro';
     font-size: 1.7em;
+    margin-left: 30px;
+    margin-right: 300px;
+    text-indent: 30px;
 }
