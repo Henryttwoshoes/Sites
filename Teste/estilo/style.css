@@ -64,7 +64,8 @@ div img:hover {
 .quemsou {
     height: 98vh;
     width: 99vw;
-    background-color: rgb(10, 10, 10)
+    background-color: rgb(10, 10, 10);
+    margin: auto;
 }
 
 .quemsou h1 {
@@ -79,4 +80,9 @@ div img:hover {
     margin-right: 100px;
     text-indent: 50px;
     text-align: justify;
+}
+.quemsou img { 
+    margin: 0 30vw 0 30vw;
+    width: 500px;
+
 }
