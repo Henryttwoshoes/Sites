@@ -75,6 +75,11 @@ aside.imagem {
     
 }
 
+#quemsou h1, h2 {
+    color: black;
+
+}
+
 section.seção h1 {
     font-size: 5em;
     margin-left: 30px;
@@ -105,18 +110,18 @@ img#canalyt {
 }
 
 
-.seção p, h1, h2, h3, h4 {
+section  p, h1, h2, h3, h4 {
     color: black;
 }
 
-.seção h2 {
+section h2 {
     font-size: 3.5em;
     margin-left: 30px;
     text-align: left;
     padding-top: 20px;
 }
 
-.seção h3 {
+section h3 {
     font-size: 3em;
     margin-left: 30px;
     text-align: left;
@@ -134,12 +139,17 @@ p.legenda  {
     font-style: italic;
     margin: 0 auto 0 auto;
     padding-bottom: 20px;
+    color: black;
 }
 
 section#projetos {
     background-color: #e0e0e0;
     width: 99.1vw;
     padding-bottom: 50px;
+}
+
+#projetos  p, h1, h2, h3, h4 {
+    color: black;
 }
 
 a {
@@ -170,6 +180,17 @@ ul, li {
     font-family: 'Source Code Pro';
     text-align: justify;
     font-size: 1.3em;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-right: 100px;
+}
+
+section#curiosidades {
+    background-color: #261A73;
+    width: 99.1vw;
+    padding-bottom: 50px;
+    color: white;
+}
+
+section#curiosidades p, h1, h2, h3 {
+    color: white;
 }
