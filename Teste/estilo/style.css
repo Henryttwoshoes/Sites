@@ -92,7 +92,7 @@ section.seção h1 {
     margin: 0 auto 0 auto;
     display: block;
     width: 25vw;
-    object-fit: cover;
+
 }
 
 img#perfil{
@@ -162,4 +162,14 @@ iframe#prc {
     display: block;
     width: 90vw;
     height: 90vh;
+}
+
+
+ul, li {
+    color: black;
+    font-family: 'Source Code Pro';
+    text-align: justify;
+    font-size: 1.3em;
+    margin-left: 100px;
+    margin-right: 100px;
 }
