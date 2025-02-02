@@ -64,7 +64,8 @@ div img:hover {
 
 
 aside.imagem {
-    margin: auto;
+    margin: 0 auto 0 auto;
+    display: block;
 }
 
 .seção {
@@ -131,7 +132,8 @@ p.legenda  {
     font-size: 1em;
     text-align: center;
     font-style: italic;
-    margin: 0 500px 0 500px;
+    margin: 0 auto 0 auto;
+    padding-bottom: 20px;
 }
 
 section#projetos {
@@ -146,9 +148,17 @@ a {
 
 h3.link {
     text-align: center;
+    padding-bottom: 30px;
 }
 
 iframe#youtube {
     margin: 0 auto 0 auto;
     display: block;
+}
+
+iframe#prc {
+    margin: 0 auto 0 auto;
+    display: block;
+    width: 90vw;
+    height: 90vh;
 }
