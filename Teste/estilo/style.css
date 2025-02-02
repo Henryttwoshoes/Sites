@@ -88,20 +88,18 @@ section.seção h1 {
     text-align: justify;
 }
 .seção img { 
-    margin: 0 10vw 0 35vw;
-    padding-left: 2vw;
+    margin: 0 auto 0 auto;
+    display: block;
     width: 25vw;
     object-fit: cover;
 }
 
 img#perfil{
     width: 10vw;
-    padding-left: 10vw;
 }
 
 img#canalyt {
     width: 50vw;
-    padding-left: px;
     margin: 0 10vw 0 0vw;
 }
 
@@ -146,10 +144,11 @@ a {
     color: blue;
 }
 
-h3#link {
+h3.link {
     text-align: center;
 }
 
 iframe#youtube {
-    margin: 0 10vw 0 16vw;
+    margin: 0 auto 0 auto;
+    display: block;
 }
