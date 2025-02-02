@@ -84,6 +84,7 @@ section.seção h1 {
     font-size: 2.5em;
     margin-left: 30px;
     text-align: left;
+    margin: 0 500px 0 500px;
 }
 .seção p {
     font-family: 'Source Code Pro';
@@ -92,6 +93,7 @@ section.seção h1 {
     margin-right: 30px;
     text-indent: 50px;
     text-align: justify;
+    margin: 0 500px 0 500px;
 }
 .seção img { 
     margin: 0 auto 0 auto;
@@ -110,9 +112,9 @@ img#canalyt {
 }
 
 section {
-    min-width: 300px;
+    /*min-width: 300px;
     max-width: 1000px;
-    margin: auto;
+    margin: auto;*/
 }
 
 section#quemsou > p, h1, h2, h3, h4 {
@@ -126,6 +128,7 @@ section h2 {
     margin-left: 30px;
     text-align: left;
     padding-top: 20px;
+    margin: 0 500px 0 500px;
 }
 
 section h3 {
@@ -133,6 +136,7 @@ section h3 {
     margin-left: 30px;
     text-align: left;
     padding-top: 20px;
+    margin: 0 500px 0 500px;
 }
 
 
@@ -147,6 +151,7 @@ p.legenda  {
     margin: 0 auto 0 auto;
     padding-bottom: 20px;
     color: black;
+    margin: 0 500px 0 500px;
 }
 
 section#projetos {
