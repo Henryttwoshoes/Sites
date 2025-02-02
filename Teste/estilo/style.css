@@ -81,6 +81,7 @@ aside.imagem {
 }
 
 section.seção h1 {
+    padding-top: 30px;
     font-size: 4em;
     margin-left: 30px;
     text-align: left;
@@ -215,7 +216,7 @@ ul, li {
 }
 
 section#curiosidades {
-    background-color: #7d70d3;
+    background-color: #b0a5f7;
     width: 99.1vw;
     padding-bottom: 50px;
 }
