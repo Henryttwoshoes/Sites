@@ -211,8 +211,7 @@ ul, li {
     font-family: 'Source Code Pro';
     text-align: justify;
     font-size: 1.3em;
-    margin-left: 50px;
-    margin-right: 100px;
+    margin: 0 300px 0 300px;
 }
 
 section#curiosidades {
