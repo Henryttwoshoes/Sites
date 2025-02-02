@@ -109,6 +109,11 @@ img#canalyt {
     margin: 0 10vw 0 0vw;
 }
 
+section {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
 
 section#quemsou > p, h1, h2, h3, h4 {
     color: black;
@@ -176,16 +181,24 @@ h3.link {
     padding-bottom: 30px;
 }
 
+iframe {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
 iframe#youtube {
     margin: 0 auto 0 auto;
     display: block;
-    width: 90vw;
+    width: 900px;
+    height: 500px;
 }
 
 iframe#prc {
     margin: 0 auto 0 auto;
     display: block;
-    width: 90vw;
+    width: 900px;
     height: 90vh;
 }
 
