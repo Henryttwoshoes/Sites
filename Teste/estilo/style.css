@@ -110,9 +110,11 @@ img#canalyt {
 }
 
 
-section  p, h1, h2, h3, h4 {
+section#quemsou > p, h1, h2, h3, h4 {
     color: black;
 }
+
+
 
 section h2 {
     font-size: 3.5em;
@@ -146,10 +148,23 @@ section#projetos {
     background-color: #e0e0e0;
     width: 99.1vw;
     padding-bottom: 50px;
+    color: black;
 }
 
-#projetos  p, h1, h2, h3, h4 {
+section#projetos p, h1, h2, h3{
     color: black;
+}
+
+#curiosidades p {
+    color: rgb(0, 0, 0);
+}
+
+#curiosidades h1 {
+    color: rgb(0, 0, 0);
+}
+
+#curiosidades h2 {
+    color: rgb(0, 0, 0);
 }
 
 a {
@@ -185,12 +200,8 @@ ul, li {
 }
 
 section#curiosidades {
-    background-color: #261A73;
+    background-color: #7d70d3;
     width: 99.1vw;
     padding-bottom: 50px;
-    color: white;
 }
 
-section#curiosidades p, h1, h2, h3 {
-    color: rgb(212, 212, 212);
-}
