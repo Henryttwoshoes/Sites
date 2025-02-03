@@ -95,6 +95,7 @@ section.seção h1 {
     text-indent: 50px;
     text-align: justify;
     margin: 0 500px 0 500px;
+    font-weight: normal;
 }
 .seção img { 
     margin: 0 auto 0 auto;
