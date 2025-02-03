@@ -113,11 +113,11 @@ img#canalyt {
     margin: 0 10vw 0 0vw;
 }
 
-section {
-    /*min-width: 300px;
+/*section {
+    min-width: 300px;
     max-width: 1000px;
-    margin: auto;*/
-}
+    margin: auto;
+}*/
 
 section#quemsou > p, h1, h2, h3, h4 {
     color: black;
