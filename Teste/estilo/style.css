@@ -221,3 +221,6 @@ section#curiosidades {
     padding-bottom: 50px;
 }
 
+img.grande {
+    max-width: 13vw;
+}
