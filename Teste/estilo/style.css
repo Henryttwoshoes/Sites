@@ -250,4 +250,8 @@ img.grande {
         max-width: 500px;
     }
 
+    img#PSN {
+        width: 60%;
+    }
+
 }
