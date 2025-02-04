@@ -99,7 +99,9 @@ section.seção h1 {
     text-align: justify;
     margin: 0 500px 0 500px;
     font-weight: normal;
+    
 }
+
 .seção img { 
     margin: 0 auto 0 auto;
     display: block;
@@ -227,4 +229,20 @@ section#curiosidades {
 
 img.grande {
     max-width: 13vw;
+}
+
+@media only screen and (max-width: 1400px) {
+    .seção p, section.seção h1, section h2, section h3, ul, li {
+        margin: 0 50px 0 50px;
+    }
+
+    section img {
+        width: 70vw;
+    }
+
+    img.grande {
+        width: 80%;
+        max-width: 80%;
+    }
+
 }
