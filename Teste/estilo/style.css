@@ -185,7 +185,7 @@ iframe {
 iframe#youtube {
     margin: 0 auto 0 auto;
     display: block;
-    width: 500px;
+    width: 900px;
     height: 500px;
 }
 
@@ -282,5 +282,11 @@ img.grande {
         display: block;
         width: 300px;
         height: 500px;
+    }
+    iframe#prc {
+        margin: 0 auto 0 auto;
+        display: block;
+        width: 300px;
+        height: 90vh;
     }
 }
