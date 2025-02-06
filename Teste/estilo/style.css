@@ -27,6 +27,7 @@ body {
     color: white;
     font-family: Helvetica, sans-serif;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 header{
@@ -117,11 +118,12 @@ img#canalyt {
     margin: 0 10vw 0 0vw;
 }
 
-/*section {
+article {
+    width: 100%;
     min-width: 300px;
     max-width: 1000px;
-    margin: auto;
-}*/
+    background-color: rgba(rgba(0, 0, 0, 0));
+}
 
 section#quemsou > p, h1, h2, h3, h4 {
     color: black;
@@ -188,14 +190,14 @@ iframe {
 iframe#youtube {
     margin: 0 auto 0 auto;
     display: block;
-    width: 900px;
+    width: 300px;
     height: 500px;
 }
 
 iframe#prc {
     margin: 0 auto 0 auto;
     display: block;
-    width: 900px;
+    width: 500px;
     height: 90vh;
 }
 
@@ -221,15 +223,9 @@ section#final {
     height: 50vh;
 }
 
-#final h1, #final h2 {
+
+#final h1, #final h2, #final ul, #final li {
     color: white;
-}
-
-
-#redes img {
-    display: inline;
-    width: 3%;
-    margin: 0 500px 0 500px;
 }
 
 
@@ -241,6 +237,11 @@ img.grande {
     
     .seção p, section.seção h1, section h2, section h3, ul, li{
         margin: 0 50px 0 50px;
+    }
+
+    #final ul, #final li {
+        margin: 0 50px 0 50px;
+        text-align: left;
     }
 
 
