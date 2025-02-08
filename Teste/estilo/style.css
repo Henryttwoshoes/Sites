@@ -153,6 +153,8 @@ p.legenda  {
     margin: 0 auto 0 auto;
     padding-bottom: 20px;
     color: black;;
+    min-width: 300px;
+    max-width: 1000px;
 }
 
 section#projetos {
@@ -231,6 +233,7 @@ section#final {
 
 img.grande {
     max-width: 13vw;
+    margin: auto;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -246,7 +249,7 @@ img.grande {
 
 
     section img{
-        width: 70vw;
+        width: 50%;
         margin: 0 50px 0 50px;
     }
 
@@ -280,7 +283,7 @@ img.grande {
     iframe#youtube {
         margin: 0 auto 0 auto;
         display: block;
-        width: 300px;
+        width: 20vw;
         height: 500px;
     }
     iframe#prc {
@@ -288,5 +291,8 @@ img.grande {
         display: block;
         width: 300px;
         height: 90vh;
+    }
+    img#discord {
+        width: 70%;
     }
 }
