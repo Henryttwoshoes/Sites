@@ -231,8 +231,12 @@ section#final {
     color: blue;
 }
 
+img {
+    max-width: 100%;
+}
+
 img.grande {
-    max-width: 13vw;
+    max-width: 100%;
     margin: auto;
 }
 
