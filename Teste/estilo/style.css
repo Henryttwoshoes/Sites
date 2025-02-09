@@ -245,8 +245,16 @@ img.grande {
     margin: auto;
 }
 
+img#fp {
+    width: 10%;
+}
+
 img#yt {
     width: 10%;
+}
+
+img#chars {
+    width: 45vw;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -264,6 +272,10 @@ img#yt {
     section img{
         width: 50%;
         margin: 0 50px 0 50px;
+    }
+
+    img#fp {
+        width: 50vw;
     }
 
     section h1{
@@ -307,6 +319,11 @@ img#yt {
     }
     img#discord {
         width: 60%;
-        margin: 0 50px 0 50px; ;
+        margin: 0 50px 0 50px;
+    }
+
+    img#chars {
+        width: 80%;
+
     }
 }
