@@ -259,6 +259,28 @@ img#chars {
 
 @media only screen and (max-width: 1400px) {
     
+    header h1 {
+        padding-top: 150px;
+        text-align: center;
+        margin: auto;
+        font-size: 8.7  vw;
+        color: white;
+    }
+    
+    header img {
+        width: 65vw;
+    
+    }
+
+    div.cima {
+        position: relative;
+        background-image: url('../imagens/foto-real.png');
+        background-size: 64.7vw;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+
     .seção p, section.seção h1, section h2, section h3, ul, li{
         margin: 0 50px 0 50px;
     }
