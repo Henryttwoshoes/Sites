@@ -348,4 +348,8 @@ img#chars {
         width: 80%;
 
     }
+
+    img#pato {
+        width: 100vh;
+    }
 }
