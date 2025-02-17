@@ -315,16 +315,17 @@ img#chars {
     }
     
     header img {
-        width: 30vw;
+        width: 15vw;
     
     }
 
     div.cima {
         position: relative;
         background-image: url('../imagens/foto-real.png');
-        background-size: 64.7vw;
+        background-size: 10vw;
         background-repeat: no-repeat;
         background-position: center center;
+        display: none;
     }
     
 
