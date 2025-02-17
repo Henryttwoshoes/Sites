@@ -194,8 +194,7 @@ iframe#youtube {
 iframe#prc {
     margin: 0 auto 0 auto;
     display: block;
-    width: 900px;
-    height: 90vh;
+    width: 20vw;
 }
 
 
@@ -257,18 +256,66 @@ img#chars {
     width: 45vw;
 }
 
-@media only screen and (max-width: 1400px) {
+
+@media only screen and (max-width: 1800px) and (min-width: 1300px){
     
     header h1 {
         padding-top: 150px;
         text-align: center;
         margin: auto;
-        font-size: 8.7  vw;
         color: white;
     }
     
     header img {
-        width: 65vw;
+        width: 10vw;
+    
+    }
+
+    div.cima {
+        position: relative;
+        background-image: url('../imagens/foto-real.png');
+        background-size: 10vw;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+
+    .seção p, section.seção h1, section h2, section h3, ul, li{
+        margin: 0 150px 0 150px;
+    }
+
+    #final ul, #final li {
+        margin: 0 300px 0 300px;
+        text-align: left;
+    }
+
+
+    section img{
+        width: 50%;
+        margin: 0 50px 0 50px;
+    }
+    
+    img.grande {
+        width: 30%;
+        max-width: 50%;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 1300px){
+    
+    header h1 {
+        padding-top: 150px;
+        text-align: center;
+        margin: auto;
+        color: white;
+    }
+    
+    header img {
+        width: 30vw;
     
     }
 
@@ -314,8 +361,8 @@ img#chars {
     }
 
     img.grande {
-        width: 80%;
-        max-width: 80%;
+        width: 30%;
+        max-width: 30%;
     }
 
     iframe {
@@ -336,8 +383,7 @@ img#chars {
     iframe#prc {
         margin: 0 auto 0 auto;
         display: block;
-        width: 300px;
-        height: 90vh;
+        width: 60%;
     }
     img#discord {
         width: 60%;
@@ -351,5 +397,9 @@ img#chars {
 
     img#pato {
         width: 100vh;
+    }
+
+    div.cima {
+        background-size: 30vw;
     }
 }
