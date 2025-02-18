@@ -285,7 +285,7 @@ img#chars {
     }
 
     #final ul, #final li {
-        margin: 0 300px 0 300px;
+        margin: 0 20px 0 100px;
         text-align: left;
     }
 
@@ -303,7 +303,10 @@ img#chars {
         width: 80vw;
 
     }
-
+    img#discord {
+        width: 25%;
+        margin: 0 0px 0 100px;
+    }
 
 }
 
