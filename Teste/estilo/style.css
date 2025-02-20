@@ -308,6 +308,10 @@ img#chars {
         margin: 0 0px 0 100px;
     }
 
+    p.legenda {
+        margin: 0 auto 0 auto;
+    }
+
 }
 
 
@@ -321,6 +325,8 @@ img#chars {
         color: white;
     }
     
+    
+
     header img {
         width: 15vw;
     
@@ -409,5 +415,9 @@ img#chars {
 
     div.cima {
         background-size: 30vw;
+    }
+
+    p.legenda {
+        margin: 0 200px 0 200px;
     }
 }
