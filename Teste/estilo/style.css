@@ -28,6 +28,7 @@ body {
     font-family: Helvetica, sans-serif;
     justify-content: center;
     overflow-x: hidden;
+    width: 100%;
 }
 
 .seçao {
