@@ -30,6 +30,10 @@ body {
     overflow-x: hidden;
 }
 
+.seçao {
+    width: 100%;
+}
+
 header{
     background-color: black;
     height: 100vh;
@@ -152,8 +156,8 @@ p.legenda  {
     font-style: italic;
     margin: 0 auto 0 auto;
     padding-bottom: 20px;
-    color: black;;
-    min-width: 300px;
+    color: black;
+    margin: auto;
     max-width: 1000px;
 }
 
@@ -418,6 +422,6 @@ img#chars {
     }
 
     p.legenda {
-        margin: 0 200px 0 200px;
+        margin: auto;
     }
 }
