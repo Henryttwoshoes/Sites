@@ -121,8 +121,6 @@ img#canalyt {
 }
 
 article {
-    min-width: 300px;
-    max-width: 1000px;
     background-color: rgba(rgba(0, 0, 0, 0));
 }
 
