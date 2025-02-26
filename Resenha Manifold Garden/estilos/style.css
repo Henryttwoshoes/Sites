@@ -48,6 +48,7 @@ main h1 {
 main p {
     font-size: 1.3em;
     font-weight: 300;
+    text-align: justify;
 }
 
 main h1, p {
