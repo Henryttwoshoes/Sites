@@ -26,11 +26,30 @@ header h1 {
     font-weight: 400;
     font-size: 5em;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 40vh;
+    margin-bottom: 30vh;
     padding: 20px;
 }
 header {
-    height: 100vh;
+    height: 80vh;
     width: 98vw;
 }
 
+main {
+    background-color: white;
+
+}
+
+main h1 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+main p {
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+main h1, p {
+    margin: 0 20vw 0 20vw;
+}
