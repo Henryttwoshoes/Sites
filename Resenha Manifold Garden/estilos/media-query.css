@@ -1,1 +1,16 @@
 @charset "UTF-8";
+
+@media screen and (max-width: 992px) {
+
+    header h1 {
+        font-weight: 400;
+        font-size: 7vh;
+        margin: 0 15vw 0 15vw;
+        margin-top: 40vh;
+        margin-bottom: 30vh;
+    }
+
+    main h1, p {
+        margin: 0 15vw 0 15vw;
+    }
+}

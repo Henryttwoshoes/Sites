@@ -25,17 +25,20 @@ body {
 header h1 {
     font-weight: 400;
     font-size: 9vh;
+    margin: 0 20vw 0;
     text-align: center;
     margin-top: 40vh;
     margin-bottom: 30vh;
 }
 header {
     height: 90vh;
-    width: 98vw;
+
 }
 
 main {
+    padding-top: 2vh;
     background-color: white;
+    padding-bottom: 10vh;
 
 }
 
