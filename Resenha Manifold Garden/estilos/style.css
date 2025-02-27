@@ -46,8 +46,9 @@ main h1 {
 
 main p {
     font-size: 1.3em;
-    font-weight: 300;
+    font-weight: 340;
     text-align: justify;
+    text-indent: 40px;
 }
 
 main h1, p {
