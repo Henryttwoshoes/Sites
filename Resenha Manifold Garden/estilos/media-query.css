@@ -13,4 +13,8 @@
     main h1, p {
         margin: 0 15vw 0 15vw;
     }
+
+    main p {
+        font-size: 1.3em;
+    }
 }
