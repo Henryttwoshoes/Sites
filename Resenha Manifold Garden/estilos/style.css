@@ -72,3 +72,8 @@ main p {
 main h1, p {
     margin: 0 25vw 0 25vw;
 }
+
+a {
+    color: #FD0100;
+    font-weight: 500;
+}
