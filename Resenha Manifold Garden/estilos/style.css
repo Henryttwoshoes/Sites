@@ -45,6 +45,7 @@ main {
 main h1 {
     font-size: 2em;
     font-weight: 500;
+    padding: -5px 0;
 }
 
 main p {
@@ -52,6 +53,7 @@ main p {
     font-weight: 350;
     text-align: justify;
     text-indent: 40px;
+    padding: 0 0 15px 0;
 }
 
 main h1, p {
