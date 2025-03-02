@@ -75,7 +75,8 @@ main h1, p {
 
 main img.print{
     width: 49vw;
-    margin: 0 25vw 0 25vw;
+    display: block;
+    margin: auto;
 }
 
 #capa {
