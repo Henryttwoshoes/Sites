@@ -19,7 +19,7 @@ body {
     font-family: 'Jost';
     font-weight: 400;
     background-color: var(--cor001);
-
+    overflow-x: hidden;
 }
 
 header h1 {
@@ -70,6 +70,16 @@ main p {
 }
 
 main h1, p {
+    margin: 0 25vw 0 25vw;
+}
+
+main img.print{
+    width: 49vw;
+    margin: 0 25vw 0 25vw;
+}
+
+#capa {
+    width: 48vw;
     margin: 0 25vw 0 25vw;
 }
 

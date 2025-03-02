@@ -24,4 +24,11 @@
     main p {
         font-size: 1.3em;
     }
+
+    main img.print {
+        width: 75vw;
+        margin: auto 12vw; 
+    }
+
+    
 }
