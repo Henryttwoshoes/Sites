@@ -88,3 +88,26 @@ a {
     color: #FD0100;
     font-weight: 500;
 }
+
+
+footer {
+    height: 50vh;
+}
+
+footer h1 {
+    font-weight: 400;
+    font-size: 9vh;
+    margin: 0 20vw 0;
+    text-align: left;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+footer p {
+    font-weight: 300;
+    font-size: 3.2vh;
+    text-align: left;
+    margin-top: 1vh;
+    margin-bottom: 30vh;
+    margin: 0 20vw 0;
+}
