@@ -101,9 +101,11 @@ footer h1 {
     text-align: left;
     margin-top: 1vh;
     margin-bottom: 1vh;
+    display: block;
 }
 
 footer p {
+    display: block;
     font-weight: 300;
     font-size: 3.2vh;
     text-align: left;
