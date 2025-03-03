@@ -91,13 +91,13 @@ a {
 
 
 footer {
-    height: 50vh;
+    height: 60vh;
 }
 
 footer h1 {
     font-weight: 400;
     font-size: 9vh;
-    margin: 0 20vw 0;
+    margin: 0 25vw 0 25vw;
     text-align: left;
     margin-top: 1vh;
     margin-bottom: 1vh;
@@ -107,9 +107,34 @@ footer h1 {
 footer p {
     display: block;
     font-weight: 300;
-    font-size: 3.2vh;
+    font-size: 2.5vh;
     text-align: left;
     margin-top: 1vh;
     margin-bottom: 30vh;
-    margin: 0 20vw 0;
+    margin: 0 25vw 0 25vw;
+}
+
+footer ul {
+    display: block;
+    font-weight: 300;
+    font-size: 2.5vh;
+    text-align: left;
+    margin-top: 1vh;
+    margin-bottom: 30vh;
+    margin: 0 0 0 13vw;
+    color:#3AB44C;
+    list-style-type: disc;
+}
+
+footer li {
+    font-weight: 300;
+    font-size: 2.5vh;
+    text-align: left;
+    margin-top: 1vh;
+    margin-bottom: 30vh;
+    margin: 0 0 0 13vw;
+}
+
+footer a {
+    color:#3AB44C;
 }
