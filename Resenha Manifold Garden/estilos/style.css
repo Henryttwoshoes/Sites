@@ -69,8 +69,13 @@ main p {
     padding: 15px 0 15px 0;
 }
 
-main h1, p {
+main h1, p{
     margin: 0 25vw 0 25vw;
+}
+
+audio {
+    margin: auto;
+    display: block;
 }
 
 main img.print{
@@ -108,7 +113,7 @@ footer p {
     display: block;
     font-weight: 300;
     font-size: 2.5vh;
-    text-align: left;
+    text-align: justify;
     margin-top: 1vh;
     margin-bottom: 30vh;
     margin: 0 25vw 0 25vw;
@@ -118,7 +123,7 @@ footer ul {
     display: block;
     font-weight: 300;
     font-size: 2.5vh;
-    text-align: left;
+    text-align: justify;
     margin-top: 1vh;
     margin-bottom: 30vh;
     margin: 0 0 0 13vw;
@@ -129,7 +134,7 @@ footer ul {
 footer li {
     font-weight: 300;
     font-size: 2.5vh;
-    text-align: left;
+    text-align: justify;
     margin-top: 1vh;
     margin-bottom: 30vh;
     margin: 0 0 0 13vw;
