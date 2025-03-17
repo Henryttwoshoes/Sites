@@ -14,7 +14,7 @@ body {
 header {
     display: block;
     margin: auto;
-    margin-top: 20vh;
+    margin: 20vh 0;
 }
 
 header > h1{
@@ -24,8 +24,44 @@ header > h1{
 }
 
 header > h2 {
-    margin-top: 10vh;
+    margin-top: 5vh;
     text-align: center;
     font-weight: 300;
     font-size: 5vh;
+}
+
+header img {
+    width: 20vw;
+    display: block;
+    margin: auto;
+    background-color: white;
+    border-radius: 43%;
+}
+
+main { 
+    background-color: #262C36;
+    padding-top: 3vh;
+}
+
+
+main h1, h2, p{
+    margin: 0 25vw 0 25vw;
+}
+
+main p {
+    font-size: 1.5em;
+    font-weight: 350;
+    text-align: justify;
+    text-indent: 40px;
+    padding: 15px 0 15px 0;
+}
+
+main h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+main h2 {
+    font-size: 2.5em;
+    font-weight: 600;
 }
