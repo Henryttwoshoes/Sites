@@ -45,11 +45,11 @@ main {
 
 
 main h1, h2, p{
-    margin: 0 25vw 0 25vw;
+    margin: 0 20vw 0 20vw;
 }
 
 main p {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: 350;
     text-align: justify;
     text-indent: 40px;
@@ -57,12 +57,12 @@ main p {
 }
 
 main h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 700;
 }
 
 main h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 600;
 }
 
