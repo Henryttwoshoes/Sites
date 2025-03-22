@@ -81,6 +81,12 @@ main img{
     margin: auto;
 }
 
+#grande {
+    width: 83vw;
+    display: block;
+    margin: auto;
+}
+
 main a {
     color: rgb(109, 109, 219);
 }
