@@ -81,6 +81,12 @@ main img{
     margin: auto;
 }
 
+
+img.media {
+    width: 33vw;
+    display: block;
+    margin: auto;
+}
 #grande {
     width: 83vw;
     display: block;
