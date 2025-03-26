@@ -56,6 +56,13 @@ main p {
     padding: 15px 0 15px 0;
 }
 
+footer p {
+    font-size: 1.5em;
+    font-weight: 350;
+    text-align: left;
+    padding: 15px 0 5px 0;
+}
+
 main h1 {
     font-size: 2.5em;
     font-weight: 700;
@@ -95,4 +102,20 @@ img.media {
 
 main a {
     color: rgb(109, 109, 219);
+}
+
+
+footer a {
+    color: rgb(109, 109, 219);
+}
+
+#footeri {
+    margin-top: 8vh;
+}
+footer h1 {
+    font-size: 8em;
+    font-weight: 600;
+    margin-top: 22vh;
+    margin-bottom: 10vh;
+    text-align: center;
 }
