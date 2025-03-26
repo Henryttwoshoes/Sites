@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 992px) {
+
+    header h1 {
+        font-weight: 400;
+        font-size: 7vh;
+        margin: 0 15vw 0 15vw;
+        margin-top: 30vh;
+        margin-bottom: 1vh;
+    }
+
+    header h2 {
+        font-weight: 300;
+        font-size: 4vh;
+        margin: 0 15vw 0 15vw;
+        margin-bottom: 30vh;
+    }
+
+    main h1, p, audio {
+        margin: 0 15vw 0 15vw;
+    }
+
+    main img{
+        width: 80vw;
+        display: block;
+        margin: auto;
+    }
+
+    img.media {
+        width: 50vw;
+        display: block;
+        margin: auto;
+    }
+    #grande {
+        width: 95vw;
+        display: block;
+        margin: auto;
+    }
+
+    main p {
+        font-size: 1.3em;
+    }
+
+    footer h1 {
+        font-size: 8em;
+    font-weight: 600;
+    margin-top: 22vh;
+    margin-bottom: 10vh;
+    text-align: center;
+    }
+    
+    footer p {
+        display: block;
+        font-weight: 300;
+        font-size: 1.3em;
+        text-align: left;
+        margin-top: 1vh;
+        margin-bottom: 30vh;
+        margin: 0 5vw 0 15vw;
+    }
+
+
+}

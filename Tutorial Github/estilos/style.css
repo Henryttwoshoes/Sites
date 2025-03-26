@@ -9,6 +9,7 @@ body {
     background-color: #0D1117;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
 }
 
 header {
@@ -56,7 +57,7 @@ main p {
     padding: 15px 0 15px 0;
 }
 
-footer p {
+footer p{
     font-size: 1.5em;
     font-weight: 350;
     text-align: left;
@@ -83,7 +84,7 @@ main p#nota {
 }
 
 main img{
-    width: 43vw;
+    width: 53vw;
     display: block;
     margin: auto;
 }
