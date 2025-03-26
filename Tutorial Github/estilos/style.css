@@ -95,6 +95,12 @@ img.media {
     display: block;
     margin: auto;
 }
+
+img#git {
+    width: 53vw;
+    display: block;
+    margin: auto;
+}
 #grande {
     width: 83vw;
     display: block;
