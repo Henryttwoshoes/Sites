@@ -55,6 +55,11 @@ header img {
 
 }
 
+header > h1, img, div.cima {
+    animation: appear 1s linear;
+    
+}
+
 div.cima {
     position: relative;
     background-image: url('../imagens/foto-real.png');
@@ -75,6 +80,19 @@ div.cima img:hover {
 aside.imagem {
     margin: 0 auto 0 auto;
     display: block;
+}
+
+section > p, h1, h2, h3, h4, li, ul, a, iframe{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+}
+
+.imagem, .grande, .seçao img {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
+
 }
 
 .seção {
