@@ -82,7 +82,7 @@ aside.imagem {
     display: block;
 }
 
-section >li, ul, a, iframe{
+li, ul, a, iframe{
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0% cover 17%;
