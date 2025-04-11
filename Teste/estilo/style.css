@@ -85,13 +85,13 @@ aside.imagem {
 section > p, h1, h2, h3, h4, li, ul, a, iframe{
     animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 35%;
+    animation-range: entry 0% cover 17%;
 }
 
 .imagem, .grande, .seçao img {
     animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 35%;
+    animation-range: entry 0% cover 17%;
 
 }
 
