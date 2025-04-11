@@ -49,7 +49,7 @@ header img {
     width: 60vw;
 }
 header > h1, h2, img, div.cima {
-    animation: appear linear 0.45s;
+    animation: appear linear 0.3s;
 }
 
 header {
