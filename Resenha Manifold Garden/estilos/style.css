@@ -39,9 +39,19 @@ header h2 {
     margin-bottom: 30vh;
 }
 
+main > img, footer > img {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
 header img {
     width: 60vw;
 }
+header > h1, h2, img, div.cima {
+    animation: appear linear 1s;
+}
+
 header {
     height: 90vh;
 
