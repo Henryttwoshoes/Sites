@@ -8,7 +8,6 @@ let valores = [];
 let limite = 5;
 let contador = 0
 function adicionar() {
-    placeholder.innerText = valores
     if (nota.value > 0 && nota.value <= 10 && contador < limite){
     var item = document.createElement('option')
     item.text = `Valor ${nota.value} adicionado`
