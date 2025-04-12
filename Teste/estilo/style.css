@@ -85,13 +85,13 @@ aside.imagem {
 li, ul, a, iframe{
     animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 30%;
+    animation-range: entry 0% cover 40%;
 }
 
 .imagem, .grande, .seçao img, .legenda {
     animation: appear linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 30%;
+    animation-range: entry 0% cover 40%;
 
 }
 
