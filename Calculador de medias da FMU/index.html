@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Calculador de médias</title>
+</head>
+<body>
+    <header>
+        <h1>Calculador de médias do Centro Universitário FMU</h1>
+    </header>
+    <main>
+        <div id="notas">
+            <h1>Digite a nota</h1>
+            <input type="number" name="nota" id="inota" placeholder="Nota" value="0">
+            <input type="button" value="Adicionar" id="add" onclick="adicionar()">
+            <br>
+            <select name="nlista" id="lista" size="6"></select>
+            <input type="button" value="Limpar" id="limpar" onclick="limpar()">
+        </div>
+        <!--<p id="array"></p>-->
+        <div id="res">
+            <p><input type="button" value="Calcular" onclick="calcular()"></p>
+            <div id="conta">
+                <p id="media">TESTE</p>
+                <p id="situation">TESTE</p>
+            </div>
+            
+        </div>
+        
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
