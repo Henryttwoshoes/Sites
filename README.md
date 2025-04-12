@@ -7,4 +7,5 @@ Sites que eu fiz no meu tempo livre
 <a href="https://henryttwoshoes.github.io/Sites/Resenha Manifold Garden/index.html" target="_blank">Minha resenha sobre Manifold Garden</a>
 <br>
 <a href="https://henryttwoshoes.github.io/Sites/Tutorial%20Github/index.html" target="_blank">Meu guia básico sobre Git e Github</a>
-<a href="https://henryttwoshoes.github.io/Sites/Calculador de medias da FMU/index.html" target="_blank">Meu guia básico sobre Git e Github</a>
+<br>
+<a href="https://henryttwoshoes.github.io/Sites/Calculador de medias da FMU/index.html" target="_blank">Meu calculador de médias semestrais da minha faculdade</a>
