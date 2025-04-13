@@ -38,7 +38,7 @@ main {
     background-color: #FF3C45;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.233);
     margin: auto;
-    width: 80vw;
+    width: 50vw;
     border-radius: 10px;
 
 }
@@ -60,7 +60,7 @@ div#res {
 
     margin: auto;
     text-align: center;
-    width: 60vw;
+    width: 30vw;
     color: black;
     font-family: 'Poppins';
     font-size: 1.5em;
