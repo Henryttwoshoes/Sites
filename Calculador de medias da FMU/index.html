@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Calculador de médias do Centro Universitário FMU</h1>
+        <h1>Calculador de médias semestrais do Centro Universitário FMU</h1>
     </header>
     <main>
         <div id="notas">
@@ -16,17 +16,21 @@
             <input type="number" name="nota" id="inota" placeholder="Nota" value="0" max="1" min="0" step="0.1">
             <input type="button" value="Adicionar" id="add" onclick="adicionar()">
             <br>
-            <select name="nlista" id="lista" size="5"></select>
+            <select name="nlista" id="lista" size="5"></select><br>
+            <input type="button" value="Tipo de cálculo" id="tipo" onclick="trocatipo()"><br>
+            
             <input type="button" value="Limpar" id="limpar" onclick="limpar()">
         </div>
         <!--<p id="array"></p>-->
         <div id="res">
+            <p id="tipotext">Você está efetuando cálculo de <span style="color: rgb(236, 22, 22);">média semestral</span></p>
             <p><input type="button" value="Calcular" onclick="calcular()"></p>
             <div id="conta">
+                
                 <p id="media"></p>
                 <p id="situation"></p>
             </div>
-            
+            <img src="" id="img" alt="">
         </div>
         
     </main>

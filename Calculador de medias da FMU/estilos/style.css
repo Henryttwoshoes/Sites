@@ -67,6 +67,9 @@ div#res {
 div#res > p {
     padding: 10px;
 }
+input {
+    margin-top: 20px;
+}
 select, input {
     font-family: var(--fonte02);
     font-size: 1.5em;
