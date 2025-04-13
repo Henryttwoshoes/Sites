@@ -64,14 +64,13 @@ function trocatipo(){
 }
 
 function calcular(){
-    if (valores.length > 0){
-        podecalculo = true
-    } else {
-        podecalculo = false
+    if (calculosem === true){
+    if (n1.length === 0){
+        window.alert('Insira pelo menos 2 valores para efetuar a operação;')
+        return;
     }
-    if (valores > 0 && calculosem === true && valores.length > 0){
+    
     let soma1 = 0;
-    //let tot1 = n1.length;
     let img = document.getElementById('img')
     //Soma dos valores do array
     for (let pos in n1){
@@ -92,7 +91,12 @@ function calcular(){
     situation.innerHTML = `<p id="situation" style="color: green;">Você está acima da média!</p>`
     img.outerHTML = `<img src="https://cdn.frankerfacez.com/emoticon/318778/4" id="img" alt="">`
     }
-} else if (calculosem === false && n1.len){
+} else {
+    if (valores.length === 0){
+        window.alert('Insira pelo menos um valor para efetuar o cálculo.');
+        return;
+    }
+    }
     let soma1 = 0
     //let tot1 = n1.length;
     let img = document.getElementById('img')
@@ -111,5 +115,4 @@ function calcular(){
     situation.innerHTML = `<p id="situation" style="color: green;">Você está acima da média!</p>`
     img.outerHTML = `<img src="https://cdn.frankerfacez.com/emoticon/318778/4" id="img" alt="">`
     }
-    
-}}
+}
