@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@media screen and (max-width: 992px) {
+
+    select {
+        font-family: 'Poppins';
+        font-size: 1em;
+        max-width: 60vw;
+        /*border: 2px solid rgb(0, 0, 0);*/
+        padding: 10px;
+        /*box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.233);*/
+        /*text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.233);*/
+    }
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <title>Calculador de médias</title>
 </head>
 <body>
@@ -12,19 +13,18 @@
     </header>
     <main>
         <div id="notas">
-            <h1>Digite a nota</h1>
+            <h1 style="text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.233);">Digite a nota</h1>
             <input type="number" name="nota" id="inota" placeholder="Nota" value="0" max="1" min="0" step="0.1">
-            <input type="button" value="Adicionar" id="add" onclick="adicionar()">
+            <input type="button" class="botao" value="Adicionar" id="add" onclick="adicionar()">
             <br>
             <select name="nlista" id="lista" size="5"></select><br>
-            <input type="button" value="Tipo de cálculo" id="tipo" onclick="trocatipo()"><br>
+            <input type="button" class="botao" value="Tipo de cálculo" id="tipo" onclick="trocatipo()"><br>
             
-            <input type="button" value="Limpar" id="limpar" onclick="limpar()">
+            <input type="button" class="botao" value="Limpar" id="limpar" onclick="limpar()">
         </div>
         <!--<p id="array"></p>-->
         <div id="res">
-            <p id="tipotext">Você está efetuando cálculo de <span style="color: rgb(236, 22, 22);">média semestral</span></p>
-            <p><input type="button" value="Calcular" onclick="calcular()"></p>
+            <p id="tipotext">Você está efetuando cálculo de <span style="color: rgb(22, 90, 236);">média semestral</span></p><input class="botao" type="button" value="Calcular" onclick="calcular()"></p>
             <div id="conta">
                 
                 <p id="media"></p>
