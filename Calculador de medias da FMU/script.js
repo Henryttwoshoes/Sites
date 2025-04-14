@@ -4,6 +4,7 @@ let res = document.getElementById("res");
 let media = document.getElementById("media")
 let situation = document.getElementById("situation")
 let placeholder = document.getElementById("array")
+lista.style.display = 'none';
 let valores = [];
 let limite = 5;
 let contador = 0;
@@ -12,10 +13,13 @@ let n2 = 0;
 let tipo = document.getElementById('tipo')
 let calculosem = Boolean(true)
 let podecalculo = Boolean(false)
+
+//window.onload = carregar();
+
 function adicionar() {
     if (nota.value > 0 && nota.value <= 10 && contador < limite){
     var item = document.createElement('option')
-    
+    lista.style.display = 'block'
     contador++
     valores.push(Number(nota.value))
     lista.appendChild(item)
@@ -37,6 +41,7 @@ function adicionar() {
 }
 
 function limpar(){
+    lista.style.display = 'none';
     valores = [];
     lista.innerHTML = ''
     contador = 0
