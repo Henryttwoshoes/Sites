@@ -8,4 +8,4 @@ Sites que eu fiz no meu tempo livre
 <br>
 <a href="https://henryttwoshoes.github.io/Sites/Tutorial%20Github/index.html" target="_blank">Meu guia básico sobre Git e Github</a>
 <br>
-<a href="https://henryttwoshoes.github.io/Sites/Calculador de medias da FMU/index.html" target="_blank">Meu calculador de médias semestrais da minha faculdade</a>
+<a href="https://henryttwoshoes.github.io/Sites/Calculador de medias da FMU" target="_blank">Meu calculador de médias semestrais da minha faculdade</a>
