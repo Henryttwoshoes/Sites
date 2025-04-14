@@ -12,7 +12,7 @@ let n1 = [];
 let n2 = 0;
 let tipo = document.getElementById('tipo')
 let calculosem = Boolean(true)
-let podecalculo = Boolean(false)
+let podecalculo = Boolean(false);
 
 //window.onload = carregar();
 
