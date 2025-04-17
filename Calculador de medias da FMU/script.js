@@ -46,6 +46,8 @@ function limpar(){
     lista.innerHTML = ''
     contador = 0
     mediaCalculada = 0
+    n1.length === 0
+    n2 = 0
     soma = 0
     media.innerText = ''
     situation.innerText = ''
@@ -59,65 +61,70 @@ function limpar(){
 function trocatipo(){
     let texttipo = document.getElementById('tipotext')
     if (calculosem === true){
-        calculosem = false
+        calculosem = false;
         texttipo.innerHTML = (`<p id="tipotext">Você está efetuando cálculo de <span style="color: rgb(236, 22, 22);">média simples</span></p>`)
     }
     else {
-        calculosem = true
+        calculosem = true;
         texttipo.innerHTML = (`<p id="tipotext">Você está efetuando cálculo de <span style="color: rgb(22, 90, 236);">média semestral</span></p>`)
     }
 }
 
-function calcular(){
-    if (calculosem === true){
-    if (n1.length === 0){
-        window.alert('Insira pelo menos 2 valores para efetuar a operação;')
-        return;
-    }
-    
-    let soma1 = 0;
-    let img = document.getElementById('img')
-    //Soma dos valores do array
-    for (let pos in n1){
-        soma1 += Number(n1[pos]);
-    }
-    
-    //Calcula a média
-    let median1 = soma1 / n1.length
-    let mediaCalculada = (median1*0.4) + (n2*0.6)
-    
-    //Exibe o resultado
-    
-    media.innerText = `A média das notas expostas é ${mediaCalculada}`;
-    if (mediaCalculada < 6){
-        situation.innerHTML = `<p id="situation" style="color: darkred;">Você está abaixo da média</p>`
-        img.outerHTML = `<img src="https://cdn.betterttv.net/emote/5fd1610acbd462462d56cd7d/3x.webp" id="img" alt="">`
-    } else {
-    situation.innerHTML = `<p id="situation" style="color: green;">Você está acima da média!</p>`
-    img.outerHTML = `<img src="https://cdn.frankerfacez.com/emoticon/318778/4" id="img" alt="">`
-    }
-} else {
-    if (valores.length === 0){
-        window.alert('Insira pelo menos um valor para efetuar o cálculo.');
-        return;
-    }
-    }
-    let soma1 = 0
-    //let tot1 = n1.length;
-    let img = document.getElementById('img')
-    //Soma dos valores do array
-    for (let pos in valores){
-        soma1 += Number(valores[pos]);
-    }
-    let mediasimples = soma1 / valores.length
-    let mediaCalculada = mediasimples
+function calcular() {
+    if (calculosem === true) {
+        // Cálculo de média semestral
+        if (n1.length === 0 || n2 === 0) {
+            window.alert('Insira pelo menos 4 valores para N1 e 1 valor para N2 antes de calcular.');
+            return;
+        }
 
-    media.innerText = `A média das notas expostas é ${mediaCalculada}`;
-    if (mediaCalculada < 6){
-        situation.innerHTML = `<p id="situation" style="color: darkred;">Você está abaixo da média</p>`
-        img.outerHTML = `<img src="https://cdn.betterttv.net/emote/5fd1610acbd462462d56cd7d/3x.webp" id="img" alt="">`
+        let soma1 = 0;
+        let img = document.getElementById('img');
+
+        // Soma os valores do array n1
+        for (let pos in n1) {
+            soma1 += Number(n1[pos]);
+        }
+
+        // Calcula a média ponderada
+        let median1 = soma1 / n1.length;
+        let mediaCalculada = (median1 * 0.4) + (n2 * 0.6);
+
+        // Exibe o resultado
+        media.innerText = `A média das notas expostas é ${mediaCalculada.toFixed(1)}`;
+        if (mediaCalculada < 6) {
+            situation.innerHTML = `<p id="situation" style="color: darkred;">Você está abaixo da média</p>`;
+            img.outerHTML = `<img src="https://cdn.betterttv.net/emote/5fd1610acbd462462d56cd7d/3x.webp" id="img" alt="">`;
+        } else {
+            situation.innerHTML = `<p id="situation" style="color: green;">Você está acima da média!</p>`;
+            img.outerHTML = `<img src="https://cdn.frankerfacez.com/emoticon/318778/4" id="img" alt="">`;
+        }
     } else {
-    situation.innerHTML = `<p id="situation" style="color: green;">Você está acima da média!</p>`
-    img.outerHTML = `<img src="https://cdn.frankerfacez.com/emoticon/318778/4" id="img" alt="">`
+        // Cálculo de média simples
+        if (valores.length === 0) {
+            window.alert('Insira pelo menos um valor para efetuar o cálculo.');
+            return;
+        }
+
+        let soma1 = 0;
+        let img = document.getElementById('img');
+
+        // Soma os valores do array valores
+        for (let pos in valores) {
+            soma1 += Number(valores[pos]);
+        }
+
+        // Calcula a média simples
+        let mediasimples = soma1 / valores.length;
+
+        // Exibe o resultado
+        media.innerText = `A média das notas expostas é ${mediasimples.toFixed(1)}`;
+        if (mediasimples < 6) {
+            situation.innerHTML = `<p id="situation" style="color: darkred;">Você está abaixo da média</p>`;
+            img.outerHTML = `<img src="https://cdn.betterttv.net/emote/5fd1610acbd462462d56cd7d/3x.webp" id="img" alt="">`;
+        } else {
+            situation.innerHTML = `<p id="situation" style="color: green;">Você está acima da média!</p>`;
+            img.outerHTML = `<img src="https://cdn.frankerfacez.com/emoticon/318778/4" id="img" alt="">`;
+        }
     }
 }
