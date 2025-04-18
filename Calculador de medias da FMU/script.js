@@ -33,7 +33,7 @@ function adicionar() {
     }
     } 
     if (nota.value <= 0 || nota.value > 10) {
-        window.alert('Valor inválido. Digite um valor entre 0 e 10.')
+        window.alert('Valor inválido. Digite um valor maior que 0 e menor ou igual a 10.')
     }
     if (contador > limite){
         window.alert('Limite de valores atingido. Certifique-se de inserir no máximo 5 notas para efetuar o cálculo.')
