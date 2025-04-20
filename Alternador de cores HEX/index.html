@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider dinamico de cores</title>
+</head>
+<body>
+    <main>
+        <label for="red">Vermelho</label>
+        <input type="range" name="vermelho" id="red" min="0" max="255" value="0" oninput="ired.innerHTML = Number(red.value)">
+        <output id="ired">0</output>
+        <label for="red">Verde</label>
+        <input type="range" name="verde" id="green" min="0" max="255" value="0" oninput="igreen.innerHTML = Number(green.value)">
+        <output id="igreen">0</output>
+        <label for="red">Azul</label>
+        <input type="range" name="azul" id="blue" min="0" max="255" value="0" oninput="iblue.innerHTML = Number(blue.value)">
+        <output id="iblue">0</output>
+    </main>
+</body>
+</html>
