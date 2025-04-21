@@ -28,3 +28,4 @@ function updateBackground(){
 red.addEventListener('input', updateBackground);
 green.addEventListener('input', updateBackground);
 blue.addEventListener('input', updateBackground);
+    //  O evento 'input' atualiza os valores em tempo real assim que eles mudam dinamicamente, algo que não acontece em outros eventos como 'change'
