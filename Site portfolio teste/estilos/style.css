@@ -47,18 +47,46 @@ header > h2 {
         flex: 0 0 67vw;
 }
 
-img#teste {
-    flex-flow: row nowrap;
-}
 
 main {
-    display: flex;
-    min-width: 500px;
-    max-width: 1000px;
-    margin: auto;
+    display: flex; /* Configura o contêiner como flexbox */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: space-between; /* Espaço entre os itens */
+    align-items: flex-start; /* Alinha os itens no topo */
+    max-width: 1000px; /* Define a largura máxima do contêiner */
+    margin: auto; /* Centraliza o contêiner horizontalmente */
     margin-bottom: 30px;
 }
+
+main > article {
+    flex: 1 1 60%; /* O texto ocupa 60% da largura */
+    margin-right: 20px; /* Espaçamento entre o texto e a imagem */
+}
+
+main > img {
+    flex: 1 1 35%; /* A imagem ocupa 35% da largura */
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    align-self: flex-start; /* Alinha a imagem no topo */
+}
+
+
 footer {
     background-color: black;
     height: 30vh;
+}
+@media (max-width: 768px) {
+    main {
+        flex-direction: column; /* Alinha os itens em coluna */
+    }
+
+    main > article {
+        flex: 1 1 100%; /* O texto ocupa 100% da largura */
+        margin-right: 0; /* Remove o espaçamento lateral */
+    }
+
+    main > img {
+        flex: 1 1 100%; /* A imagem ocupa 100% da largura */
+        margin-top: 20px; /* Adiciona espaçamento acima da imagem */
+    }
 }
