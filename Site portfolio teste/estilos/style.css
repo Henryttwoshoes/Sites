@@ -47,6 +47,10 @@ header > h2 {
         flex: 0 0 67vw;
 }
 
+img#teste {
+    flex-flow: row nowrap;
+}
+
 main {
     display: flex;
     min-width: 500px;
