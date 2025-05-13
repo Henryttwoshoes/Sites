@@ -11,18 +11,19 @@
 
 body {
     font-family: 'Poppins';
-    color: white;
+    color: black;
     height: 100vh;
-    background-color: rgb(31, 31, 31);
+    background-color: #E0E0E0;
 }
 
 header {
     padding: 10px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: #281A75;
+    color: white;
 }
 
 header > nav {
@@ -32,8 +33,8 @@ header > nav {
 }
 
 header > nav > a {
-    background-color: black;
-    color: white;
+    background-color: #523ad6;
+    color: #F2F2F2;
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
@@ -44,33 +45,38 @@ header > nav > a {
 header > h2 {
 
         /*border: 1px dotted black;*/
-        flex: 0 0 67vw;
+        flex: 0 1 auto;
+        margin: 0 50vw;
+        padding-bottom: 5px;
 }
 
 
 article {
     display: flex; /* Configura o contêiner como flexbox */
     flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    justify-content: center; /* Centraliza os itens horizontalmente */
     align-items: flex-start; /* Alinha os itens no topo */
     max-width: 2000px; /* Define a largura máxima do contêiner */
-    margin: auto; /* Centraliza o contêiner horizontalmente */
+    margin: auto; /* Centraliza o contêiner horizontalmente */ 
     margin-bottom: 30px;
     padding: 20px;
     flex-flow: row wrap;
+    background-color:  white;
+    height: 100vh;   
 
 }
 
 article p, h1 {
     max-width: 700px;
     text-align: justify;
-    margin: auto;
-    margin-left: 13vw;
+    margin: 0 auto;
+    padding-right: 10px;
+
 
 }
 
-div#teste > img {
-    max-width: 30vw;
-    margin-left: 10px;
+div#teste{
+    text-align: center;
 
 }
 
@@ -78,24 +84,25 @@ div#teste > img {
 @media (max-width: 768px) {
     main {
         flex-direction: column; /* Alinha os itens em coluna */
-    }
+    }    
 
     main > article {
         flex: 1 1 100%; /* O texto ocupa 100% da largura */
-        margin-right: 0; /* Remove o espaçamento lateral */
-    }
+        margin-right: 0; /* Remove o espaçamento lateral * o
+    }    
 
     article p, h1 {
         text-align: justify;
         margin: auto;
     
-    }
+    }    
 
     div#teste > img {
         flex: 1 1 100%; /* A imagem ocupa 100% da largura */
-        margin-top: 20px; /* Adiciona espaçamento acima da imagem */
+        margin-top: 20px; /* Adiciona espaçamento acima da imagem */; /* Adiciona espaçamento acima da imagem */
         max-width: 80vw;
-        margin: auto;
-    }
+        margin: auto;   margin: auto;
+    }   
 }
+
 
