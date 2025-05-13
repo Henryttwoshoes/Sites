@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Poppins';
+    color: white;
+    height: 100vh;
+    background-color: rgb(31, 31, 31);
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+}
+
+header > nav {
+    align-items: right;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+header > nav > a {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+header > h2 {
+
+        /*border: 1px dotted black;*/
+        flex: 0 0 67vw;
+}
+
+
+article {
+    display: flex; /* Configura o contêiner como flexbox */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+    align-items: flex-start; /* Alinha os itens no topo */
+    max-width: 2000px; /* Define a largura máxima do contêiner */
+    margin: auto; /* Centraliza o contêiner horizontalmente */
+    margin-bottom: 30px;
+    padding: 20px;
+    flex-flow: row wrap;
+
+}
+
+article p, h1 {
+    max-width: 700px;
+    text-align: justify;
+    margin: auto;
+    margin-left: 13vw;
+
+}
+
+div#teste > img {
+    max-width: 30vw;
+    margin-left: 10px;
+
+}
+
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column; /* Alinha os itens em coluna */
+    }
+
+    main > article {
+        flex: 1 1 100%; /* O texto ocupa 100% da largura */
+        margin-right: 0; /* Remove o espaçamento lateral */
+    }
+
+    article p, h1 {
+        text-align: justify;
+        margin: auto;
+    
+    }
+
+    div#teste > img {
+        flex: 1 1 100%; /* A imagem ocupa 100% da largura */
+        margin-top: 20px; /* Adiciona espaçamento acima da imagem */
+        max-width: 80vw;
+        margin: auto;
+    }
+}
+
