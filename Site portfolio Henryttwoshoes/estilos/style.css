@@ -60,24 +60,35 @@ article {
     margin: auto; /* Centraliza o contêiner horizontalmente */ 
     margin-bottom: 30px;
     padding: 20px;
-    flex-flow: row wrap;
     background-color:  white;
     height: 100vh;   
+    
 
 }
 
-article p, h1 {
-    max-width: 700px;
-    text-align: justify;
-    margin: 0 auto;
-    padding-right: 10px;
 
 
+
+article h1 {
+    font-size: 2em;
 }
+
+article h2 {
+    font-size: 1.8em;
+}
+
 
 div#teste{
     text-align: center;
 
+}
+
+article img {
+    flex: 0 0 200px; /* Largura fixa ou ajuste conforme necessário */
+    max-width: 250px;
+    height: auto;
+    align-self: flex-start;
+    border-radius: 8px;
 }
 
 
