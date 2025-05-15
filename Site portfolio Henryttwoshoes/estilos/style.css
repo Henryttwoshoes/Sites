@@ -67,7 +67,9 @@ article {
 }
 
 
-
+article p {
+    padding: 15px 0;
+}
 
 article h1 {
     font-size: 2em;
@@ -79,13 +81,16 @@ article h2 {
 
 
 div#teste{
-    text-align: center;
+    text-align: center; /* Permite que o bloco da imagem cresça */
+    display: flex;
+    justify-content: flex-end; /* Alinha a imagem à direita */
+    align-items: flex-start;
 
 }
 
 article img {
-    flex: 0 0 200px; /* Largura fixa ou ajuste conforme necessário */
-    max-width: 250px;
+    flex: 0 0 500px; /* Largura fixa ou ajuste conforme necessário */
+    max-width: 880px;
     height: auto;
     align-self: flex-start;
     border-radius: 8px;
