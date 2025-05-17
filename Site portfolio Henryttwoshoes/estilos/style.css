@@ -27,9 +27,10 @@ header {
 }
 
 header > nav {
-    align-items: right;
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 header > nav > a {
@@ -56,7 +57,7 @@ article {
     flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
     justify-content: center; /* Centraliza os itens horizontalmente */
     align-items: flex-start; /* Alinha os itens no topo */
-    max-width: 2000px; /* Define a largura máxima do contêiner */
+    max-width: 1500px; /* Define a largura máxima do contêiner */
     margin: auto; /* Centraliza o contêiner horizontalmente */ 
     margin-bottom: 30px;
     padding: 20px;
@@ -88,6 +89,8 @@ div#teste{
 
 }
 
+
+
 article img {
     flex: 0 0 500px; /* Largura fixa ou ajuste conforme necessário */
     max-width: 880px;
@@ -101,10 +104,11 @@ article img {
     main {
         flex-direction: column; /* Alinha os itens em coluna */
     }    
+    
 
     main > article {
         flex: 1 1 100%; /* O texto ocupa 100% da largura */
-        margin-right: 0; /* Remove o espaçamento lateral * o
+        margin-right: 0; /* Remove o espaçamento lateral */
     }    
 
     article p, h1 {
@@ -119,6 +123,19 @@ article img {
         max-width: 80vw;
         margin: auto;   margin: auto;
     }   
+
+    article {
+        background-color: white;
+    }
+    body {
+        background-color: white;
+    }
+    header > nav {
+        align-items: center;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center; /* <-- Adicione esta linha */
+    }
 }
 
 
