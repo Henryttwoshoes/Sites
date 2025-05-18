@@ -17,7 +17,6 @@ body {
 }
 
 header {
-    padding: 10px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -37,8 +36,8 @@ header > nav > a {
     background-color: #523ad6;
     color: #F2F2F2;
     padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
+
+
     text-decoration: none;
     text-align: center;
 }
@@ -62,7 +61,7 @@ article {
     margin-bottom: 30px;
     padding: 20px;
     background-color:  white;
-    height: 100vh;   
+   
     
 
 }
@@ -81,7 +80,7 @@ article h2 {
 }
 
 
-div#teste{
+div.teste{
     text-align: center; /* Permite que o bloco da imagem cresça */
     display: flex;
     justify-content: flex-end; /* Alinha a imagem à direita */

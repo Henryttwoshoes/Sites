@@ -21,9 +21,24 @@
             height: 30vw;
         }
         figure {
-            margin: 0 20vw;
+            padding: 0px 10px;
             text-align: center;
         }
+        figure.desc {
+            padding: 0px 10px;
+            text-align: center;
+            margin: 0 20vw;
+        }
+
+        section#jogos {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: left;
+        align-items: center;
+    }
+    section#jogos > figure > a, img {
+        width: 300px;
+    }
     </style>
 </head>
 <body>
@@ -38,15 +53,46 @@
     </header>
 <main>
     <article>
-        <div id="text">
+        <div class="text">
             <h1>Meus Trabalhos</h1>
             <h2>Meu vídeos no Youtube</h2>
             <p>Periodicamente eu mantenho um hobby de produzir vídeos para o meu canal do Youtube. A maioria dos vídeos que eu produzo são reviews de jogos e coisas que eu gosto enquanto o resto são quadros distintos e diversos, como compilações de clipes entre outras coisas.</p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/bv9gWraqmAU?si=yRsE0VLvcqdcqoaD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <figure><i>Minha resenha sobre a série de livros "O Espadachim de Carvão", um dos vídeos que tenho mais orgulho de ter feito.</i></figure>
+            <figure class="desc"><i>Minha resenha sobre a série de livros "O Espadachim de Carvão", um dos vídeos que tenho mais orgulho de ter feito.</i></figure>
 
             <h2>Meus jogos</h2>
+            <p>Desde meados de 2018 eu mantive um hobby de criar alguns projetos de jogos digitais para web por meio da engine Construct 2, algo que me rendeu uma pequena experiência no processo de gamedev. Atualmente, todos os meus jogos estão publicados no site da Scirra - empresa por trás do Construct - para que todos vejam.</p>
+            <p>Os jogos incluem desde projetos inacabados por questões técnicas a jogos que eu de vez em quando atualizo ou que já foram terminados.</p>
+            <p>Confira abaixo 3 dos meus projetos de jogos já feitos.</p>
 
+    </div>
+    <section id="jogos">
+        <a href="https://www.construct.net/en/free-online-games/stickvania-4170/play" target="_blank">
+            <figure>
+                <img src="imagens/cu.webp" alt="">
+                <figcaption>Stickvania</figcaption>
+            </figure>
+        </a>
+        <a href="https://www.construct.net/en/free-online-games/flappy-pudim-9746/play" target="_blank">
+            <figure>
+                <img src="imagens/Flappy Pudim.png" alt="">
+                <figcaption>Flappy Pudim</figcaption>
+            </figure>
+        </a>
+        <a href="https://www.construct.net/en/free-online-games/yeemo-17492/play">
+            <figure>
+                <img src="imagens/YEEMO Banner.png" alt="">
+                <figcaption>YEEMO</figcaption>
+            </figure>
+        </a>
+        
+
+    </section>
+    <div class="text">
+        <p>Também trabalhei com outras pessoas durante a minha trajetória em gamedev, principalmente no jogo <a href="https://www.construct.net/en/free-online-games/yeemo-17492/play" target="_blank">YEEMO</a> em que tive ajuda de um músico e dois artistas amigos meus.</p>
+        <p>Até o momento em que estou escrevendo esse texto, estou trabalhando em um novo projeto de jogo original e você provavelmente ficará sabendo dele daqui há alguns meses.</p>
+
+        <h2>Minha atuação de moderação de comunidade e organização de eventos</h2>
     </div>
     </article>
     
