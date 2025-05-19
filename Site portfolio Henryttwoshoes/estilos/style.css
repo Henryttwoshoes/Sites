@@ -18,7 +18,7 @@ body {
 
 header {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column; /* <-- MUDE para coluna */
     justify-content: center;
     align-items: center;
     background-color: #281A75;
@@ -43,11 +43,8 @@ header > nav > a {
 }
 
 header > h2 {
-
-        /*border: 1px dotted black;*/
-        flex: 0 1 auto;
-        margin: 0 50vw;
-        padding-bottom: 5px;
+    margin: 0 0  0; /* margem inferior para separar do nav */
+    padding-bottom: 5px;
 }
 
 
@@ -57,9 +54,10 @@ article {
     justify-content: center; /* Centraliza os itens horizontalmente */
     align-items: flex-start; /* Alinha os itens no topo */
     max-width: 1500px; /* Define a largura máxima do contêiner */
-    margin: auto; /* Centraliza o contêiner horizontalmente */ 
-    margin-bottom: 30px;
-    padding: 20px;
+    margin: auto; /* Centraliza o contêiner horizontalmente */
+    padding-top: 10px; 
+    margin-bottom: 0px;
+
     background-color:  white;
    
     
@@ -98,7 +96,13 @@ article img {
     border-radius: 8px;
 }
 
-
+footer{
+    font-size: 19px;
+    text-align: center;
+    background-color: #281A75;
+    color: white;
+    width: 100%;
+}
 @media (max-width: 768px) {
     main {
         flex-direction: column; /* Alinha os itens em coluna */
@@ -113,13 +117,14 @@ article img {
     article p, h1 {
         text-align: justify;
         margin: auto;
+        padding: 0 10px;
     
     }    
 
     div#teste > img {
         flex: 1 1 100%; /* A imagem ocupa 100% da largura */
         margin-top: 20px; /* Adiciona espaçamento acima da imagem */; /* Adiciona espaçamento acima da imagem */
-        max-width: 80vw;
+        max-width: 30vw;
         margin: auto;   margin: auto;
     }   
 
@@ -135,6 +140,12 @@ article img {
         flex-flow: row wrap;
         justify-content: center; /* <-- Adicione esta linha */
     }
+    footer {
+        margin-top: 30vh;
+    }
 }
+
+
+
 
 
