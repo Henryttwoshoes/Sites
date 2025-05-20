@@ -38,6 +38,8 @@
     }
     section#jogos > figure > a, img {
         width: 300px;
+        justify-content: center; /* Alinha a imagem à direita */
+        align-items: center;
     }
 
     div#imgrande > img {
@@ -46,6 +48,33 @@
         align-items: center;
         width: 800px;
     }
+
+    @media (max-width: 900px) {
+    div#imgrande > img {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        display: block;
+        width: 90vw;
+    }
+    section#jogos  {
+        width: 300px;
+        justify-content: center; /* Alinha a imagem à direita */
+        align-items: center;
+        margin: auto;
+        display: block;
+    }
+    
+    iframe{
+        margin: auto;
+        display: block;
+        width: 90vw;
+    }
+    article h1, h2 {
+        text-align: left;
+    }
+}
     </style>
 </head>
 <body>

@@ -57,6 +57,7 @@ article {
     margin: auto; /* Centraliza o contêiner horizontalmente */
     padding-top: 10px; 
     margin-bottom: 0px;
+    align-content: flex-start;
 
     background-color:  white;
    
@@ -93,6 +94,8 @@ article img {
     max-width: 880px;
     height: auto;
     align-self: flex-start;
+    align-items: center;
+
     border-radius: 8px;
 }
 
@@ -103,7 +106,7 @@ footer{
     color: white;
     width: 100%;
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
     main {
         flex-direction: column; /* Alinha os itens em coluna */
     }    
@@ -124,8 +127,8 @@ footer{
     div#teste > img {
         flex: 1 1 100%; /* A imagem ocupa 100% da largura */
         margin-top: 20px; /* Adiciona espaçamento acima da imagem */; /* Adiciona espaçamento acima da imagem */
-        max-width: 30vw;
-        margin: auto;   margin: auto;
+        max-width: 70vw;
+        margin: auto;
     }   
 
     article {
@@ -140,9 +143,12 @@ footer{
         flex-flow: row wrap;
         justify-content: center; /* <-- Adicione esta linha */
     }
-    footer {
-        margin-top: 30vh;
-    }
+    
+
+    article, h2, p {
+        padding: 8px;
+    } 
+    
 }
 
 
