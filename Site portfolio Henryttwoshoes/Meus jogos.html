@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Portfolio</title>
+    <style>
+        article {
+            padding-bottom: 5vh;
+        }
+
+
+
+        article p, h1, h2 {
+        max-width: 800px;
+        text-align: justify;
+        margin: 0 auto;
+        padding-right: 10px;
+
+        }
+
+        iframe{
+            margin: auto;
+            display: block;
+            width: 45vw;
+            height: 30vw;
+        }
+        figure {
+            padding: 0px 10px;
+            text-align: center;
+        }
+        figure.desc {
+            padding: 0px 10px;
+            text-align: center;
+            margin: 0 20vw;
+        }
+
+        section#jogos {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    section#jogos > figure > a, img {
+        width: 400px;
+        justify-content: center; /* Alinha a imagem à direita */
+        align-items: center;
+    }
+
+    div#imgrande > img {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 800px;
+    }
+
+    @media (max-width: 900px) {
+    div#imgrande > img {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        display: block;
+        width: 90vw;
+    }
+    section#jogos  {
+        width: 300px;
+        justify-content: center; /* Alinha a imagem à direita */
+        align-items: center;
+        margin: auto;
+        display: block;
+    }
+    
+    iframe{
+        margin: auto;
+        display: block;
+        width: 90vw;
+    }
+    article h1, h2 {
+        text-align: left;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Henryttwoshoes</h2>
+        <nav>
+            <a href="index.html">Sobre mim</a>
+            <a href="Meu trabalho.html">Meus vídeos</a>
+            <a href="Meus jogos.html">Meus jogos</a>
+            <a href="Henry por ai.html">Henry por aí</a>
+            <a href="Contato.html">Contato</a
+        </nav>
+    </header>
+<main>
+    <article>
+        <div class="text">
+            <h1>Meus jogos</h1>
+            <p>De tempos em tempos eu trabalho em projetos de jogos digitais para a internet. Depois de fazer um curso de desenvolvimento em Construct 2 em 2019, eu mantive esse hobby nesses espaços de tempo.</p>
+            <p>Não são os jogos mais bem feitos, mas são uma demonstração da minha criatividade e experiência com gamedev.</p>
+    </div>
+    <section id="jogos">
+        <a href="https://www.construct.net/en/free-online-games/stickvania-4170/play" target="_blank">
+            <figure>
+                <img src="imagens/cu.webp" alt="">
+                <figcaption>Stickvania</figcaption>
+            </figure>
+        </a>
+        <a href="https://www.construct.net/en/free-online-games/flappy-pudim-9746/play" target="_blank">
+            <figure>
+                <img src="imagens/Flappy Pudim.png" alt="">
+                <figcaption>Flappy Pudim</figcaption>
+            </figure>
+        </a>
+        <a href="https://www.construct.net/en/free-online-games/yeemo-17492/play">
+            <figure>
+                <img src="imagens/YEEMO Banner.png" alt="">
+                <figcaption>YEEMO</figcaption>
+            </figure>
+        </a>
+        
+
+    </section>
+    <div class="text">
+            <p>Existem outros projetos meus perdidos nos meus HDs, mas optei por anexar somente os meus projetos até então publicados.</p>
+    
+    <div id="img">
+        <img src="https://cdn.betterttv.net/emote/5b490e73cf46791f8491f6f4/3x.webp" alt=""
+        
+        style="display: block; margin: auto; width: 200px; padding-top: 40vh;"
+
+        >
+    </div>
+</div>
+</main>
+    <footer>
+        Site desenvolvido por Henryttwoshoes
+    </footer>
+</body>
+</html>
