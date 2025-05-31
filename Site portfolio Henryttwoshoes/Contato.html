@@ -6,8 +6,19 @@
     <link rel="stylesheet" href="estilos/style.css">
     <title>Portfolio</title>
     <style>
-        article{
-            height: 100vh;
+    article {
+        height: 100vh;
+    }
+
+
+    div.text img {
+        flex: 0 0 1000px;
+        width: 850px;
+        max-width: 1200px;
+        height: auto;
+        align-self: center;
+        align-items: center;
+        border-radius: 8px;
         }
 
         article p, h1, h2 {
@@ -15,9 +26,25 @@
         text-align: justify;
         margin: 0 auto;
         padding-right: 10px;
-
         }
 
+               section#conteudo {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: space-between;
+    }
+    section#conteudo > figure > a, img {
+        width: 300px;
+        justify-content: center; /* Alinha a imagem à direita */
+        align-items: center;
+    }
+    section#conteudo > a {
+        margin: 0 10px;
+    }
+    
+    
 
         @media (max-width: 900px) {
             footer {
@@ -43,9 +70,29 @@
         <div class="text">
             <h1>Contato</h1>
             <p>Aqui vão os meios dos quais você pode entrar em contato comigo para alguma ocasião.</p>
-
-        
-    </div>
+</div>
+        <section id="conteudo">
+        <a href="https://youtu.be/C7jCxeWnafo?si=vz1vHc9ZS14hs9wL" target="_blank">
+            <figure>
+                <img src="imagens/thumbs/castle crashers.jpg" alt="">
+                <figcaption>Review Castle Crashers</figcaption>
+            </figure>
+        </a>
+        <a href="https://youtu.be/SSNFBbHbHNU?si=hmZHVprKybV05PrB" target="_blank">
+            <figure>
+                <img src="imagens/thumbs/people playground.webp" alt="">
+                <figcaption>Review People Playground</figcaption>
+            </figure>
+        </a>
+        <a href="https://youtu.be/N_gOiE-DAMo?si=M7HfuP3CLh3_Sr-A">
+            <figure>
+                <img src="imagens/thumbs/thumbnail the longing.png" alt="">
+                <figcaption>Review The Longing</figcaption>
+            </figure>
+        </a>
+       
+    
+    </section> 
     </article>
     
 </main>

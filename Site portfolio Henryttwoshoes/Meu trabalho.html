@@ -6,6 +6,16 @@
     <link rel="stylesheet" href="estilos/style.css">
     <title>Portfolio</title>
     <style>
+        div.text img {
+        flex: 0 0 1000px;
+        width: 850px;
+        max-width: 1200px;
+        height: auto;
+        align-self: center;
+        align-items: center;
+        border-radius: 8px;
+        }
+
         article p, h1, h2 {
         max-width: 800px;
         text-align: justify;
@@ -30,13 +40,14 @@
             margin: 0 20vw;
         }
 
-        section#jogos {
+        section#conteudo {
         display: flex;
         flex-flow: row wrap;
-        justify-content: left;
+        justify-content: center;
         align-items: center;
+        align-content: space-between;
     }
-    section#jogos > figure > a, img {
+    section#conteudo > figure > a, img {
         width: 300px;
         justify-content: center; /* Alinha a imagem à direita */
         align-items: center;
@@ -58,7 +69,11 @@
         display: block;
         width: 90vw;
     }
-    section#jogos  {
+
+    div.text img{
+        max-width: 95vw;
+    }
+    section#conteudo  {
         width: 300px;
         justify-content: center; /* Alinha a imagem à direita */
         align-items: center;
@@ -85,64 +100,94 @@
             <a href="Meu trabalho.html">Meus vídeos</a>
             <a href="Meus jogos.html">Meus jogos</a>
             <a href="Henry por ai.html">Henry por aí</a>
-            <a href="Contato.html">Contato</a
+            <a href="Contato.html">Contato</a>
         </nav>
     </header>
 <main>
     <article>
         <div class="text">
-            <h1>Meu Trabalho</h1>
-            <h2>Meu vídeos no Youtube</h2>
-            <p>Periodicamente eu mantenho um hobby de produzir vídeos para o meu canal do Youtube. A maioria dos vídeos que eu produzo são reviews de jogos e coisas que eu gosto enquanto o resto são quadros distintos e diversos, como compilações de clipes entre outras coisas.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/bv9gWraqmAU?si=yRsE0VLvcqdcqoaD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <figure class="desc"><i>Minha resenha sobre a série de livros "O Espadachim de Carvão", um dos vídeos que tenho mais orgulho de ter feito.</i></figure>
+            <h1>Meu vídeos no Youtube</h1>
+            <p>De tempos em tempos eu pratico um certo hobby de escrever e editar vídeos para o meu canal do youtube.</p>
+            <img src="imagens/Banner Novo.png" alt="">
+            <p>Os vídeos são bem diversificados, às vezes eu escrevo análises de jogos ou resenhas de outras obras e transformo em vídeos, em outras eu faço uma compilação de clipes de eu jogando com meus amigos e coisas diversas, como sessões de conversa, ou relatos de histórias que eu vivi.</p>
 
-            <h2>Meus jogos</h2>
-            <p>Desde meados de 2018 eu mantive um hobby de criar alguns projetos de jogos digitais para web por meio da engine Construct 2, algo que me rendeu uma pequena experiência no processo de gamedev. Atualmente, todos os meus jogos estão publicados no site da Scirra - empresa por trás do Construct - para que todos vejam.</p>
-            <p>Os jogos incluem desde projetos inacabados por questões técnicas a jogos que eu de vez em quando atualizo ou que já foram terminados.</p>
-            <p>Confira abaixo 3 dos meus projetos de jogos já feitos.</p>
-
+            <h2 style="padding: 20px 0">Análises e resenhas</h2>
     </div>
-    <section id="jogos">
-        <a href="https://www.construct.net/en/free-online-games/stickvania-4170/play" target="_blank">
+    <section id="conteudo">
+        <a href="https://youtu.be/C7jCxeWnafo?si=vz1vHc9ZS14hs9wL" target="_blank">
             <figure>
-                <img src="imagens/cu.webp" alt="">
-                <figcaption>Stickvania</figcaption>
+                <img src="imagens/thumbs/castle crashers.jpg" alt="">
+                <figcaption>Review Castle Crashers</figcaption>
             </figure>
         </a>
-        <a href="https://www.construct.net/en/free-online-games/flappy-pudim-9746/play" target="_blank">
+        <a href="https://youtu.be/SSNFBbHbHNU?si=hmZHVprKybV05PrB" target="_blank">
             <figure>
-                <img src="imagens/Flappy Pudim.png" alt="">
-                <figcaption>Flappy Pudim</figcaption>
+                <img src="imagens/thumbs/people playground.webp" alt="">
+                <figcaption>Review People Playground</figcaption>
             </figure>
         </a>
-        <a href="https://www.construct.net/en/free-online-games/yeemo-17492/play">
+        <a href="https://youtu.be/N_gOiE-DAMo?si=M7HfuP3CLh3_Sr-A">
             <figure>
-                <img src="imagens/YEEMO Banner.png" alt="">
-                <figcaption>YEEMO</figcaption>
+                <img src="imagens/thumbs/thumbnail the longing.png" alt="">
+                <figcaption>Review The Longing</figcaption>
             </figure>
         </a>
-        
+        <a href="https://youtu.be/HPFJSJVi344?si=cq-B8aXtADlg_Mp7">
+            <figure>
+                <img src="imagens/thumbs/thumbnail euro.png" alt="">
+                <figcaption>Review Euro Truck Simulator 2</figcaption>
+            </figure>
+        </a>
+        <a href="https://youtu.be/Fw5aqH7Gw4A?si=skQL19N6_QfRdLaY">
+            <figure>
+                <img src="imagens/thumbs/Dandara.png" alt="">
+                <figcaption>Review Dandara</figcaption>
+            </figure>
+        </a>
+        <a href="https://youtu.be/NUaYUBFqRN0?si=TS41sQ2UHPxVDnRN">
+            <figure>
+                <img src="imagens/thumbs/castle story.png" alt="">
+                <figcaption>Review Castle Story</figcaption>
+            </figure>
+        </a>
+        <a href="https://youtu.be/OL1fugfi110?si=Zkm6_kSm6BnIhchN">
+            <figure>
+                <img src="imagens/thumbs/trilokos.png" alt="">
+                <figcaption>Review Trilokos</figcaption>
+            </figure>
+        </a>
+        <a href="https://youtu.be/bv9gWraqmAU?si=2ik3SPAQZ_ODyvvo">
+            <figure>
+                <img src="imagens/thumbs/thumbnail esp de carvão.png" alt="">
+                <figcaption>Resenha sobre O Espadachim de Carvão</figcaption>
+            </figure>
+        </a>
+        <a href="https://youtu.be/viDTdpQ93Gs?si=akgafQl0F1jV-p77">
+            <figure>
+                <img src="imagens/thumbs/Thumbnail Review Spore.png" alt="">
+                <figcaption>Review Spore</figcaption>
+            </figure>
+        </a>
 
     </section>
     <div class="text">
-        <p>Também trabalhei com outras pessoas durante a minha trajetória em gamedev, principalmente no jogo <a href="https://www.construct.net/en/free-online-games/yeemo-17492/play" target="_blank">YEEMO</a> em que tive ajuda de um músico e dois artistas amigos meus.</p>
-        <p>Até o momento em que estou escrevendo esse texto, estou trabalhando em um novo projeto de jogo original e você provavelmente ficará sabendo dele daqui há alguns meses.</p>
+        <p>Os vídeos não são, ao meu ver, os "<strong>vídeos mais bem produzidos de todos</strong>" mas são uma representação do meu costume com apresentações e um pouco da minha habilidade de oratória - que ainda estou desenvolvendo.</p>
 
-        <h2>Minha atuação de moderação de comunidade e organização de eventos</h2>
-        <p>Além da minha vida de criador de conteúdo, estudante e viajante na maionése, eu também exerço um trabalho de suporte voluntário na comunidade do <a href="https://x.com/Cazum8Videos" target="_blank">Cazum8</a>, um youtuber famoso por vídeos de jogos variados, séries marcantes e lives malucas na <a href="https://www.twitch.tv/cazum8videos" target="_blank">twitch dele.</a></p>
-        <p>Eu basicamente atuo como um moderador e organizador de eventos para a comunidade dele, trabalhando junto de outros jovens com idades próximas a minha.</p>
-        <div id="imgrande">
-            <img src="imagens/Pudim_20240513_150450_0000.png" alt="">
-        </div>
-        <p>Como trabalhos notórios, posso destacar a organização que fiz do evento <strong>PUDIM PRÊMIOS</strong>, que foi uma live de premiação da comunidade à moda Oscar.</p>
+        <p>Existem outros vídeos no meu canal, como os mais antigos que servem como mídias de momentos da minha infância, mas não vou colocar todos aqui por questões de escopo. Caso queira ver mais sobre o meu trabalho no Youtube, aqui vai o link diretop para o meu canal:</p>
+        <a href="https://www.youtube.com/@henryttwoshoes/featured" target="_blank">
+            <p style="text-align: center; font-size: 3em;">Link para o canal de Henryttwoshoes</p>
+            <img src="imagens/youtube.png" style="display: block; width: 100px; text-align: center; margin: auto;" alt="">
+        </a>
+        <div class="img"">
+        <img src="https://cdn.betterttv.net/emote/65e3ab4aef81ab2249090117/3x.webp" alt=""
+        
+        style="display: block; margin: auto; width: 200px; padding-top: 20vh; margin-bottom: 2vh;">
+        <p style="text-align: center;">Tenha um bom dia👍</p>
     </div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/rDJ0Fg8eGbk?si=uXl03e6cz9NeZYET" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <div class="teste">
-        <p>E por último também posso mencionar a sessão de RPG de mesa que narrei para o André - o Cazum8 - em live.</p>
-
+    
     </div>
-    <iframe style="margin-bottom: 10px;" width="560" height="315" src="https://www.youtube.com/embed/1lI-s615ZvQ?si=G6r3DmsMYtRcy74W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    
     </article>
     
 </main>
