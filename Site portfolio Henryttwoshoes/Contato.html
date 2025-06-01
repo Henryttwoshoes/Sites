@@ -7,7 +7,10 @@
     <title>Portfolio</title>
     <style>
     article {
-        height: 100vh;
+        max-width: 1500px;
+        margin: auto;
+        display: block;
+        flex-wrap: nowrap;
     }
 
 
@@ -44,13 +47,25 @@
         margin: 0 10px;
     }
     
-    
+    article img {
+        width: 10vw
+    }
 
+    figure {
+        display: block;
+        text-align: center;
+    }
         @media (max-width: 900px) {
             footer {
         margin-top: 35vh;
+            }
+        article img {
+        width: 80vw;
+        justify-content: center; /* Alinha a imagem à direita */
+        align-items: center;
     }
-        }
+    }
+        
     </style>
 </head>
 <body>
@@ -72,27 +87,31 @@
             <p>Aqui vão os meios dos quais você pode entrar em contato comigo para alguma ocasião.</p>
 </div>
         <section id="conteudo">
-        <a href="https://youtu.be/C7jCxeWnafo?si=vz1vHc9ZS14hs9wL" target="_blank">
+
             <figure>
-                <img src="imagens/thumbs/castle crashers.jpg" alt="">
-                <figcaption>Review Castle Crashers</figcaption>
+                <img src="imagens/gmail-new.png" alt="">
+                <figcaption>henryttwoshoes@gmail.com</figcaption>
             </figure>
-        </a>
-        <a href="https://youtu.be/SSNFBbHbHNU?si=hmZHVprKybV05PrB" target="_blank">
+
+
             <figure>
-                <img src="imagens/thumbs/people playground.webp" alt="">
-                <figcaption>Review People Playground</figcaption>
+                <img src="imagens/discord-logo-discord-icon-transparent-free-png.webp" alt="">
+                <figcaption>henryttwoshoes</figcaption>
             </figure>
-        </a>
-        <a href="https://youtu.be/N_gOiE-DAMo?si=M7HfuP3CLh3_Sr-A">
-            <figure>
-                <img src="imagens/thumbs/thumbnail the longing.png" alt="">
-                <figcaption>Review The Longing</figcaption>
-            </figure>
-        </a>
+            <br>
        
     
     </section> 
+    <br>
+            <figure>
+                <img src="imagens/Screenshot_4.png" alt=""
+                ">
+            </figure>
+            <div class="img"">
+        <img src="https://cdn.frankerfacez.com/emoticon/491039/4" alt=""
+        
+        style="display: block; margin: auto; width: 200px; padding-top: 40vh; margin-bottom: 2vh;">
+        </div>
     </article>
     
 </main>
