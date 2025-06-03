@@ -8,6 +8,7 @@
     <style>
         article{
             height: 100vh;
+            display: block;
         }
 
         article p, h1, h2 {
@@ -18,10 +19,99 @@
 
         }
 
+                div.text img {
+        flex: 0 0 1000px;
+        width: 850px;
+        max-width: 1200px;
+        height: auto;
+        align-self: center;
+        align-items: center;
+        border-radius: 8px;
+        }
 
-        @media (max-width: 900px) {
-            footer {
-        margin-top: 35vh;
+        article p, h1, h2 {
+        max-width: 800px;
+        text-align: justify;
+        margin: 0 auto;
+        padding-right: 10px;
+
+        }
+
+        iframe{
+            margin: auto;
+            display: block;
+            width: 45vw;
+            height: 30vw;
+        }
+        figure {
+            padding: 0px 10px;
+            text-align: center;
+        }
+        figure.desc {
+            padding: 0px 10px;
+            text-align: center;
+            margin: 0 20vw;
+        }
+
+        section#conteudo {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: space-between;
+    }
+    section#conteudo > figure > a, img {
+        width: 500px;
+        justify-content: center; /* Alinha a imagem à direita */
+        align-items: center;
+    }
+
+    div#imgrande > img {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 800px;
+    }
+
+    @media (max-width: 900px) {
+    div#imgrande > img {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        display: block;
+        width: 90vw;
+    }
+
+    div.text img{
+        max-width: 95vw;
+    }
+    section#conteudo  {
+        width: 300px;
+        justify-content: center; /* Alinha a imagem à direita */
+        align-items: center;
+        margin: auto;
+        display: block;
+    }
+    
+    iframe{
+        margin: auto;
+        display: block;
+        width: 90vw;
+    }
+    article h1, h2 {
+        text-align: left;
+    }
+}
+    @media (max-width: 900px) {
+    footer {
+    margin-top: 35vh;
+    }
+    section#conteudo > figure > a, img {
+        width: 300px;
+        justify-content: center; /* Alinha a imagem à direita */
+        align-items: center;
+        margin: auto;
     }
         }
     </style>
@@ -44,10 +134,24 @@
             <h1>Eu por aí</h1>
             <p>Você pode me encontrar por aí em alguns cantos da internet, além do meu canal.</p>
             <h2>Moderação do Cazum8</h2>
-            <p>No meu tempo livre, eu ajudo o youtuber e streamer <a href="https://x.com/Cazum8Videos">Cazum8</a> a criar conteúdos cada vez melhores e divertidos. Sou narrador de RPG de Mesa nas streams dele, organizador de eventos como o Pudim Prêmios - o "Oscar da comunidade dele" - arte mensal e muito mais.</p>
+            <p>No meu tempo livre, eu ajudo o youtuber e streamer <a href="https://x.com/Cazum8Videos">Cazum8</a> a criar conteúdos cada vez melhores e divertidos. Sou narrador de RPG de Mesa nas streams dele, moderador do Discord, organizador de eventos como o Pudim Prêmios - o "<strong>Oscar da comunidade dele</strong>" - arte mensal e muito mais.</p>
 
         
     </div>
+    <section id="conteudo">
+        <a href="https://youtu.be/C7jCxeWnafo?si=vz1vHc9ZS14hs9wL" target="_blank">
+            <figure>
+                <img src="imagens/thumbs/pudim premios.jpg" alt="">
+                <figcaption>O PUDIM PRÊMIOS</figcaption>
+            </figure>
+        </a>
+        <a href="https://www.lojacazum.com/" target="_blank">
+            <figure>
+                <img src="imagens/banner discord.png" alt="">
+                <figcaption>Link para o Discord do Pudimverso</figcaption>
+            </figure>
+        </a>    
+    </section>
     </article>
     
 </main>
