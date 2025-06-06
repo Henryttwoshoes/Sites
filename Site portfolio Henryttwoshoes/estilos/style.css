@@ -21,7 +21,7 @@ header {
     flex-direction: column; /* <-- MUDE para coluna */
     justify-content: center;
     align-items: center;
-    background-color: #281A75;
+    background-color: #523ad6;
     color: white;
 }
 
@@ -31,6 +31,7 @@ header > nav {
     align-items: center;
     justify-content: center;
 }
+
 
 header > nav > a {
     background-color: #523ad6;
