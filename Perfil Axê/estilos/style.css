@@ -5,20 +5,58 @@
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Merriweather Sans';
+    background: url(../imagens/5.png)  no-repeat fixed;
+    background-size: 70%;
 }
+
+
+.banner {
+    width: 99.1vw;
+    min-height: 320px;
+    background-image: linear-gradient(to bottom, #ffffff00, #000000 400%);
+    background-size: 50%;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    justify-items: flex-end;
+    justify-content: flex-end;
+    align-content: flex-end;
+    & h1 {
+        font-size: 3rem;
+        color: white;
+        padding: .25rem;
+    }
+    & h2 {
+        font-size: 1.5rem;
+        color: white;
+        padding: .25rem;
+
+        & img {
+            display: inline;
+            width: 1.3rem;
+        }
+    }
+}
+
+main {
+    background-color: #121212;
+    height: 50vh;
+}
+
 
 
 .flex {
     display: flex;
 
-    margin: auto;
-    margin-top: 30vh;
+    margin-left: 2rem;
+
     max-width: 50%;
     min-width: 40%;
 
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
 
     
 
@@ -41,7 +79,6 @@ body {
 
     & input {
         appearance: none;
-        font-family: Georgia, 'Times New Roman', Times, serif;
         border: none;
         margin: auto;
         background-color: rgba(255, 255, 255, 0);
