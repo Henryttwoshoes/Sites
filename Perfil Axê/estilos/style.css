@@ -40,9 +40,94 @@ body {
     }
 }
 
+header{
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+    flex-flow: row wrap;
+    
+    padding: 10px;
+
+
+
+    & img {
+        width: 5%;
+        
+    }
+    & span.follow{
+        border: 1px solid white;
+        border-radius: 20px;
+        padding: 10px 20px;
+        &:hover {
+            background-color: gainsboro;
+            transition-duration: .3s;
+        }
+        &:not(:hover){
+            background-color: rgba(255, 255, 255, 0);
+            transition-duration: .3s;
+        }
+        }
+    }
+
+
+
 main {
     background-color: #121212;
-    height: 50vh;
+    height: 98vh;
+    color: white;
+}
+
+.musicas{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2vw;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr 2fr;*/
+
+    & label {
+        color: white;
+    }
+}
+
+.track {
+    display: grid;
+    grid-template-columns: 40px 48px 1fr 1fr 60px;
+    align-items: center;
+    gap: 16px;
+    min-height: 56px;
+    border-radius: 6px;
+    transition: background 0.2s;
+    margin-bottom: 4px;
+    margin-right: 20vw;
+}
+
+/* Configuração dos itens da tabela de musicas*/
+
+
+.track-cover, .track-cover >img {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+.track:hover {
+    background: rgba(255,255,255,0.05);
+}
+.track-number {
+    color: #b3b3b3;
+    font-size: 1.1em;
+    text-align: right;
+}
+.track-title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1em;
+}
+.track-plays, .track-duration {
+    color: #b3b3b3;
+    font-size: 0.95em;
+    text-align: right;
+    padding-right: 20px;
 }
 
 
@@ -98,3 +183,4 @@ main {
     padding: 10px;
     outline: 1px solid gray;
 }
+
